@@ -1,0 +1,10 @@
+rxn05759	Reduced ferredoxin:H+ oxidoreductase	(2) cpd00067_c0 + (2) cpd11620_c0 <=> (2) cpd11621_c0 + cpd11640_c0
+rxn05776	rxn05776	cpd00001_c0 <=> cpd00129_c0
+rxn05775	NADPH:ferrileghemoglobin oxidoreductase	cpd00005_c0 + cpd00067_c0 + (2) cpd12158_c0 <=> cpd00006_c0 + (2) cpd12160_c0	
+rxn05774	NADPH:ferricytochrome-c2 oxidoreductase	cpd00005_c0 + cpd00067_c0 + (2) cpd11796_c0 <=> cpd00006_c0 + (2) cpd11798_c0
+rxn05773	NADH:ferrileghemoglobin oxidoreductase	cpd00004_c0 + cpd00067_c0 + (2) cpd12158_c0 <=> cpd00003_c0 + (2) cpd12160_c0	
+rxn05772	NADH:ferricytochrome-b5 oxidoreductase	cpd00004_c0 + cpd00067_c0 + (2) cpd11795_c0 <=> cpd00003_c0 + (2) cpd11797_c0
+rxn05771	Ferrocytochrome c2:oxygen oxidoreductase	cpd00007_c0 + (4) cpd11798_c0 <=> (2) cpd00001_c0 + (4) cpd11796_c0
+rxn05770	[Phosphorylase a] phosphohydrolase	(4) cpd00001_c0 + cpd12067_c0 <=> (4) cpd00009_c0 + (2) cpd12068_c0
+rxn05769	ATP:phosphorylase-b phosphotransferase	(2) cpd00002_c0 + cpd12068_c0 <=> (2) cpd00008_c0 + cpd12067_c0
+rxn05768	rxn05768	(2) cpd12781_c0 <=> cpd00007_c0 + (2) cpd12780_c0

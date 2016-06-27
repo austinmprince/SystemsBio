@@ -1,0 +1,4 @@
+R6	C_c -> F_c
+R7	F_c -> Z_c
+R10	Z_c -> D_c
+R3	C_c -> D_c
