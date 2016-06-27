@@ -3,6 +3,8 @@ from cobra import Model, Reaction, flux_analysis
 from uniqAndSort import uniq, sort_and_deduplicate
 import re
 import time
+import pandas as pd
+from six import iterkeys
 start_time = time.time()
 # Import Matt's model from SMBL format and creates a model object in cobra
 mattModel = create_cobra_model_from_sbml_file("2016_06_23_gapped_meoh_producing.xml")
@@ -34,6 +36,7 @@ rxns_added = {}
 # value of the objective function that is garnered by adding these reactions to the model
 for x in range(len(resultShortened)):
     mattModelTest = Model.copy(mattModel)
+
     for i in range(len(resultShortened[x])):
         addID = resultShortened[x][i].id
         rxn = Reaction(addID)
@@ -41,9 +44,24 @@ for x in range(len(resultShortened)):
         rxn.reaction = resultShortened[x][i].reaction
         rxn.reaction = re.sub('\+ dummy\S+', '', rxn.reaction)
     solution = mattModelTest.optimize()
+
     growthValue.append(solution.f)
+    out_rxns = mattModelTest.reactions.query(
+            lambda rxn: rxn.x > solution.f*0.1, None
+        ).query(lambda x: x, 'boundary')
+    in_rxns = mattModelTest.reactions.query(
+            lambda rxn: rxn.x < -solution.f*0.1, None
+        ).query(lambda x: x, 'boundary')
+    # out_fluxes.sort_values(ascending=False, inplace=True)
+    # out_fluxes = out_fluxes.round(5)
+    # in_fluxes.sort_values(inplace=True)
+    # in_fluxes = in_fluxes.round(5)
+    print out_rxns
+    print in_rxns
+
+
     mattModelTest = mattModel
 for i in range(len(resultShortened)):
     rxns_added[i] = resultShortened[i], growthValue[i]
-print rxns_added[0]
-print "Run time: %s seconds" %(time.time() - start_time)
+# print rxns_added[0]
+# print "Run time: %s seconds" %(time.time() - start_time)

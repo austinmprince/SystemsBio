@@ -12,17 +12,6 @@ toyModel = create_cobra_model_from_sbml_file("toy_model.xml")
 # the universal reactions model
 Universal = Model("Universal Reactions")
 f = open('toyModelrxns.txt', 'r')
-# These two functions are used to make our list of functions unique so that no duplicate
-# functions are run through the optimization protocol
-def uniq(lst):
-    last = object()
-    for item in lst:
-        if item == last:
-            continue
-        yield item
-        last = item
-def sort_and_deduplicate(l):
-    return list(uniq(sorted(l, reverse=True)))
 # Reads through the text file and takes out different data fields (id, reaction)
 # that are tab delimited adds them to an dictionary from which they can be added to the
 # universal reactions model
