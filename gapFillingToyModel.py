@@ -2,6 +2,7 @@ from cobra.io.sbml import create_cobra_model_from_sbml_file
 import csv
 from cobra import Reaction, Model, flux_analysis
 from copy import deepcopy
+import re
 # Creates a toy model by reading in Matt's toy model file
 # written in smbl format
 toyModel = create_cobra_model_from_sbml_file("toy_model.xml")
@@ -50,8 +51,10 @@ for x in range(len(resultShortened)):
     toyModelTest = deepcopy(toyModel)
     for i in range(len(resultShortened[x])):
         addID = resultShortened[x][i].id
-        rxn = Universal.reactions.get_by_id(addID)
+        rxn = Reaction(addID)
         toyModelTest.add_reaction(rxn)
+        rxn.reaction = resultShortened[x][i].reaction
+        rxn.reaction = re.sub('\+ dummy\S+', '', rxn.reaction)
     growthValue.append(toyModelTest.optimize().f)
     toyModelTest = toyModel
 
