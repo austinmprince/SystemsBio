@@ -3,6 +3,7 @@ import csv
 from cobra import Reaction, Model, flux_analysis
 from copy import deepcopy
 import re
+import pandas as pd
 # Creates a toy model by reading in Matt's toy model file
 # written in smbl format
 toyModel = create_cobra_model_from_sbml_file("toy_model.xml")
@@ -48,14 +49,16 @@ resultShortened = sort_and_deduplicate(uniq(result))
 # this code also creates a test model called toyModelTest that reactions are added to and
 # the optimal solution is then tested on for the different iterations of the growMatch algorithm
 for x in range(len(resultShortened)):
-    toyModelTest = deepcopy(toyModel)
+    toyModelTest = Model.copy(toyModel)
     for i in range(len(resultShortened[x])):
         addID = resultShortened[x][i].id
         rxn = Reaction(addID)
         toyModelTest.add_reaction(rxn)
         rxn.reaction = resultShortened[x][i].reaction
         rxn.reaction = re.sub('\+ dummy\S+', '', rxn.reaction)
-    growthValue.append(toyModelTest.optimize().f)
+    solution = toyModelTest.optimize()
+    growthValue.append(solution.x)
+    print solution.f
     toyModelTest = toyModel
 
 for i in range(len(growthValue)):
