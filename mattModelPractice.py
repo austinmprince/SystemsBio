@@ -42,8 +42,7 @@ its = 4
 result = flux_analysis.growMatch(mattModel, Universal, iterations=1)
 resultShortened = sort_and_deduplicate(uniq(result))
 rxns_added = {len(resultShortened)}
-for i in range(len(resultShortened)):
-    [rxns_added[i]] = resultShortened[i]
+
 print rxns_added
 # Runs the various solutions given by the gapfilling result through the model and obtains the
 # value of the objective function that is garnered by adding these reactions to the model
