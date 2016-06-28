@@ -3,6 +3,7 @@ from cobra import Model, Reaction, flux_analysis
 from uniqAndSort import uniq, sort_and_deduplicate
 import re
 import time
+import operator
 import pandas as pd
 from six import iterkeys
 start_time = time.time()
@@ -52,13 +53,16 @@ for x in range(len(resultShortened)):
     in_rxns = mattModelTest.reactions.query(
             lambda rxn: rxn.x < -solution.f*0.1, None
         ).query(lambda x: x, 'boundary')
-    # out_fluxes.sort_values(ascending=False, inplace=True)
-    # out_fluxes = out_fluxes.round(5)
-    # in_fluxes.sort_values(inplace=True)
-    # in_fluxes = in_fluxes.round(5)
-    print out_rxns
-    print in_rxns
-
+    in_fluxes = {}
+    out_fluxes = {}
+    for rxn in in_rxns:
+        in_fluxes[rxn.name] = rxn.x
+    for rxn in out_rxns:
+        out_fluxes[rxn.name] = rxn.x
+    sorted_out = sorted(out_fluxes.items(), key=operator.itemgetter(1), reverse=True)
+    sorted_in = sorted(in_fluxes.items(), key=operator.itemgetter(1), reverse=True)
+    print sorted_out
+    print sorted_in
 
     mattModelTest = mattModel
 for i in range(len(resultShortened)):

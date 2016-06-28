@@ -4,7 +4,7 @@ from uniqAndSort import uniq, sort_and_deduplicate
 import re
 import time
 start_time = time.time()
-import pandas as pd
+import operator
 
 
 def gapFillFunc(model, database, runs):
@@ -39,10 +39,37 @@ def gapFillFunc(model, database, runs):
         in_rxns = funcModelTest.reactions.query(
             lambda rxn: rxn.x < -solution.f*0.1, None
         ).query(lambda x: x, 'boundary')
-
-
-
-        funcModelTest = funcModel
+        in_fluxes = {}
+        out_fluxes = {}
+        for rxn in in_rxns:
+            in_fluxes[rxn.name] = rxn.x
+        for rxn in out_rxns:
+            out_fluxes[rxn.name] = rxn.x
+        sorted_out = sorted(out_fluxes.items(), key=operator.itemgetter(1), reverse=True)
+        sorted_in = sorted(in_fluxes.items(), key=operator.itemgetter(1), reverse=True)
+    funcModelTest = funcModel
     for i in range(len(resultShortened)):
-        rxns_added[i] = resultShortened[i], growthValue[i]
+        rxns_added[i] = resultShortened[i], growthValue[i], sorted_in, sorted_out
     return rxns_added
+
+def printItems(model, database, runs):
+    rxns_added = gapFillFunc(model, database, runs)
+    for key in rxns_added.keys():
+        print "-------------------------------"
+        print "Run Number: " + str(key)
+        print "-------------------------------"
+        for i in range(len(rxns_added[key][0])):
+            rxn_name = re.sub('\+ dummy\S+', '', rxns_added[key][0][i].reaction)
+            print "%s : %s" %(rxns_added[key][0][i].id, rxn_name)
+        print "-------------------------------"
+        print "Objective function value: " + str(rxns_added[key][1])
+        print "-------------------------------"
+        print "Major in fluxes"
+        for i in range(len(rxns_added[key][2])):
+            print str(rxns_added[key][2][i][0]) + ": " + str(rxns_added[key][2][i][1])
+        print "-------------------------------"
+        print "Major out fluxes"
+        for i in range(len(rxns_added[key][3])):
+            print str(rxns_added[key][3][i][0]) + ": " + str(rxns_added[key][3][i][1])
+
+
