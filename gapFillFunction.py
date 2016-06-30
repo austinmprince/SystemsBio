@@ -11,10 +11,11 @@ def gapFillFunc(model, database, runs):
     funcModel = create_cobra_model_from_sbml_file(model)
     Universal = Model("Universal Reactions")
     f = open(database, 'r')
+    next(f)
     rxn_dict = {}
     for line in f:
         rxn_items = line.split('\t')
-        rxn_dict[rxn_items[0]] = rxn_items[2]
+        rxn_dict[rxn_items[0]] = rxn_items[6]
     for rxnName in rxn_dict.keys():
         rxn = Reaction(rxnName)
         Universal.add_reaction(rxn)
@@ -31,13 +32,15 @@ def gapFillFunc(model, database, runs):
             funcModelTest.add_reaction(rxn)
             rxn.reaction = resultShortened[x][i].reaction
             rxn.reaction = re.sub('\+ dummy\S+', '', rxn.reaction)
+        threshold = 1E-8
         solution = funcModelTest.optimize()
         growthValue.append(solution.f)
+        # if funcModelTest.solution.status == 'optimal':
         out_rxns = funcModelTest.reactions.query(
-            lambda rxn: rxn.x > solution.f*0.1, None
+            lambda rxn: rxn.x > threshold, None
         ).query(lambda x: x, 'boundary')
         in_rxns = funcModelTest.reactions.query(
-            lambda rxn: rxn.x < -solution.f*0.1, None
+            lambda rxn: rxn.x < -threshold, None
         ).query(lambda x: x, 'boundary')
         in_fluxes = {}
         out_fluxes = {}
@@ -47,6 +50,9 @@ def gapFillFunc(model, database, runs):
             out_fluxes[rxn.name] = rxn.x
         sorted_out = sorted(out_fluxes.items(), key=operator.itemgetter(1), reverse=True)
         sorted_in = sorted(in_fluxes.items(), key=operator.itemgetter(1), reverse=True)
+        # else:
+        #     sorted_out = {}
+        #     sorted_in = {}
     funcModelTest = funcModel
     for i in range(len(resultShortened)):
         rxns_added[i] = resultShortened[i], growthValue[i], sorted_in, sorted_out
@@ -71,5 +77,7 @@ def printItems(model, database, runs):
         print "Major out fluxes"
         for i in range(len(rxns_added[key][3])):
             print str(rxns_added[key][3][i][0]) + ": " + str(rxns_added[key][3][i][1])
+        print "-------------------------------"
+    print "Time to run: " + str(time.time() - start_time)
 
 
