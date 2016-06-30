@@ -60,6 +60,7 @@ def gapFillFunc(model, database, runs):
 
 def printItems(model, database, runs):
     rxns_added = gapFillFunc(model, database, runs)
+    print rxns_added
     for key in rxns_added.keys():
         print "-------------------------------"
         print "Run Number: " + str(key)
@@ -79,5 +80,28 @@ def printItems(model, database, runs):
             print str(rxns_added[key][3][i][0]) + ": " + str(rxns_added[key][3][i][1])
         print "-------------------------------"
     print "Time to run: " + str(time.time() - start_time)
+
+def writeItems(writeFile, model, database, runs):
+    f = open(writeFile, 'w')
+    rxns_added = gapFillFunc(model, database, runs)
+    for key in rxns_added.keys():
+        f.write("-------------------------------\n")
+        f.write("Run Number: " + str(key) + '\n')
+        f.write("-------------------------------\n")
+        for i in range(len(rxns_added[key][0])):
+            rxn_name = re.sub('\+ dummy\S+', '', rxns_added[key][0][i].reaction)
+            f.write("%s : %s" %(rxns_added[key][0][i].id, rxn_name) + '\n')
+        f.write("-------------------------------\n")
+        f.write("Objective function value: " + str(rxns_added[key][1]) + '\n')
+        f.write("-------------------------------\n")
+        f.write("Major in fluxes\n")
+        for i in range(len(rxns_added[key][2])):
+            f.write(str(rxns_added[key][2][i][0]) + ": " + str(rxns_added[key][2][i][1])+'\n')
+        f.write("-------------------------------\n")
+        f.write("Major out fluxes\n")
+        for i in range(len(rxns_added[key][3])):
+            f.write(str(rxns_added[key][3][i][0]) + ": " + str(rxns_added[key][3][i][1]) + '\n')
+        f.write("-------------------------------\n")
+    f.write("Time to run: " + str(time.time() - start_time) +'\n')
 
 
