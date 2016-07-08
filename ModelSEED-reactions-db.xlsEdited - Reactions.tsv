@@ -5995,13 +5995,11 @@ rxn06147	Secondary-alcohol:oxygen oxidoreductase	|1.1.3.18|		-27.9497	0.756099	c
 rxn06148	Alkane,reduced-rubredoxin:oxygen 1-oxidoreductase	|1.14.15.3|	R02281	10000000	10000000	cpd00007_c0 + cpd11651_c0 + cpd11855_c0 <=> cpd00001_c0 + cpd00195_c0 + cpd11681_c0	O2 + Reduced rubredoxin + RH <=> H2O + 1-Alcohol + Oxidized rubredoxin	<=>
 rxn06149	rxn06149		R02289	10000000	10000000	cpd00345_c0 + cpd12810_c0 <=> cpd00087_c0 + cpd12809_c0	Corrinoid + 5-Methyltetrahydrofolate <=> Methylcorrinoid + Tetrahydrofolate	<=>
 rxn06150	rxn06150			420.5	0.23673	cpd00350_c0 <=> cpd12823_c0	Farnesyldiphosphate <=> Polyprenol	<=
-rxn06151	Chitin amidohydrolase	|3.5.1.41|		57.197	2.17284	cpd00001_c0 + cpd11683_c0[n] <=> cpd00029_c0 + cpd11741_c0[n]	H2O + Chitin[n] => ACET + Chitosan[n]	<=
 rxn06152	[1,4-(N-Acetyl-beta-D-glucosaminyl)]n glycanohydrolase	|3.2.1.14|	R02334	10000000	10000000	cpd00001_c0 <=> cpd02217_c0	H2O <=> N-Acetyl-D-glucosaminide	<=>
 rxn06153	UDP-N-acetyl-D-glucosamine:chitin	|2.4.1.16|	R02335	151.13	1.66683	cpd00037_c0 <=> cpd00014_c0	UDP-N-acetylglucosamine <=> UDP	<=
 rxn06154	Haloacetate halidohydrolase	|3.8.1.3|		10000000	10000000	cpd00001_c0 + cpd01248_c0 <=> cpd00067_c0 + cpd00139_c0 + cpd11684_c0	H2O + Haloacetate <=> H+ + Glycolate + Halide	<=>
 rxn06155	1-Haloalkane halidohydrolase	|3.8.1.5|		10000000	10000000	cpd00001_c0 + cpd11964_c0 <=> cpd00067_c0 + cpd00195_c0 + cpd11684_c0	H2O + 1-Haloalkane <=> H+ + 1-Alcohol + Halide	<=>
 rxn06156	Poly(1,4-alpha-D-galacturonate) glycanohydrolase	|3.2.1.15|	R02360	-406.513	2.99287	cpd00001_c0 <=> cpd01532_c0	H2O <=> Digalacturonate	=>
-rxn06158	Pectin pectylhydrolase	|3.1.1.11|		10000000	10000000	cpd00001_c0[n] + cpd11601_c0[n] <=> cpd00116_c0 + cpd11686_c0	H2O[n] + Pectin[n] => Methanol + Pectate	<=>
 rxn06159	NADPH2:quinone oxidoreductase	|1.6.5.5|		10000000	10000000	cpd00005_c0 + cpd00067_c0 + cpd00364_c0 <=> cpd00006_c0 + cpd12695_c0	TPNH + H+ + Quinone <=> TPN + Semidione	<=>
 rxn06160	Acyl-CoA:retinol O-acyltransferase	|2.3.1.76|	R02366	-3.614	1.17862	cpd00365_c0 + cpd11611_c0 <=> cpd00010_c0 + cpd12018_c0	Retinol + Acyl-CoA <=> CoA + Retinyl ester	=>
 rxn06161	Ecdysone, hydrogen-donor:oxygen oxidoreductase (20-hydroxylating)	|1.14.99.22|	R02374	10000000	10000000	cpd00007_c0 + cpd00369_c0 + cpd11610_c0 <=> cpd00001_c0 + cpd01712_c0 + cpd11609_c0	O2 + Ecdysone + AH2 <=> H2O + 20-Hydroxyecdysone + A	<=>
@@ -6660,7 +6658,6 @@ rxn06829	rxn06829			10000000	10000000	cpd03427_c0 + cpd11609_c0 <=> cpd03508_c0 
 rxn06830	rxn06830			-82.63	0.433652	cpd12780_c0 <=> cpd12785_c0	2-Polyprenylphenol => 4-Hydroxy-3-polyprenylbenzoate	=>
 rxn06831	s-adenosylmethione:2-demethylmenaquinol methyltransferase	|2.1.1.-|	R04993	-26.149	3.57376	cpd00017_c0 + cpd00067_c0 + cpd11425_c0 <=> cpd00019_c0 + cpd11451_c0	SAM + H+ + 2dmmq7 <=> S-Adenosylhomocysteine + mql7	=>
 rxn06832	rxn06832	|2.1.1.-|		-185.349	4.56679	cpd00017_c0 + cpd11425_c0 <=> cpd00019_c0 + cpd12844_c0	SAM + 2dmmq7 <=> S-Adenosylhomocysteine + Phytonadiol	=>
-rxn06833	Polyisopentenylpyrolinate:4-hydroxybenzoate nonaprenyltransferase	|2.5.1.39|		11.84	0.974868	cpd00136_c0 + cpd03476_c0[n] <=> cpd00012_c0[n] + cpd12785_c0	4-Hydroxybenzoate + Polyprenyl diphosphate[n] => PPi[n] + 4-Hydroxy-3-polyprenylbenzoate	<=
 rxn06834	GDPmannose:glycolipid 1,3-alpha-D-mannosyltransferase	|2.4.1.132|	R05002	54.48	1.19396	cpd00083_c0 + cpd12789_c0 <=> cpd00031_c0 + cpd12790_c0	GDP-mannose + Man-beta1->4GlcNAc-beta1->4GlcNAc-PP-Dol <=> GDP + Man-alpha1->3Man-beta1->4GlcNAc-beta1->4GlcNAc-PP-Dol	<=
 rxn06835	rxn06835		R05010	10000000	10000000	cpd12407_c0 + cpd12792_c0 <=> cpd11619_c0 + cpd12793_c0	Dolichyl phosphate D-mannose + (alpha-D-Mannosyl)8-beta-D-mannosyl- diacetylchitobiosyldiphosphodolichol <=> Dolichyl phosphate + (alpha-D-Mannosyl)9-beta-D-mannosyl- diacetylchitobiosyldiphosphodolichol	<=>
 rxn06836	L-Alanyl-tRNA:UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-	|2.3.2.10|		-8.4	4.03455	cpd03488_c0 + (5) cpd12100_c0 <=> (5) cpd00067_c0 + cpd03489_c0 + (5) cpd11913_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutaminyl-L-lysyl-D-alanyl-D-alanine + 5 Glycyl-tRNA(Gly) <=> 5 H+ + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L- alanyl-D-glutaminyl-L-lysyl-(glycyl)5-D-alanyl-D-alanine + 5 tRNA(Gly)	<=>
@@ -6701,12 +6698,7 @@ rxn06871	S-Adenosyl-L-methionine:[3-phospho-D-glycerate-carboxy-lyase	|2.1.1.127
 rxn06872	[methionine	|1.16.1.8|		10000000	10000000	cpd00005_c0 + cpd00017_c0 + cpd00067_c0 + cpd12872_c0 <=> cpd00006_c0 + cpd00019_c0 + cpd12873_c0	TPNH + SAM + H+ + [Methionine synthase]-cob(I)alamin <=> TPN + S-Adenosylhomocysteine + [Methionine synthase]-methylcob(I)alamin	<=>
 rxn06873	Quinoline-4-carboxylate:acceptor 2-oxidoreductase (hydroxylating)	|1.3.99.19|		10000000	10000000	cpd00001_c0 + cpd03837_c0 + cpd11609_c0 <=> cpd03838_c0 + cpd11610_c0	H2O + Cinchonic acid + A <=> 2(1H)-Quinolinone + AH2	<=>
 rxn06874	reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)	|1.18.6.1|	R05185	10000000	10000000	(16) cpd00001_c0 + (16) cpd00002_c0 + cpd00528_c0 + (8) cpd11620_c0 <=> (16) cpd00008_c0 + (16) cpd00009_c0 + (2) cpd00013_c0 + (6) cpd00067_c0 + (8) cpd11621_c0 + cpd11640_c0	16 H2O + 16 ATP + N2 + 8 Reducedferredoxin <=> 16 ADP + 16 Phosphate + 2 NH3 + 6 H+ + 8 Oxidizedferredoxin + H2	<=>
-rxn06875	Reduced flavodoxin:dinitrogen oxidoreductase (ATP-hydrolysing)	|1.19.6.1|		10000000	10000000	cpd00002_c0 + (6) cpd00067_c0[n] + cpd00528_c0 + (6) cpd12173_c0[n] <=> cpd00008_c0 + cpd00009_c0[n] + (2) cpd00013_c0[n] + (6) cpd12207_c0	ATP + 6 H+[n] + N2 + 6 Reduced flavodoxin[n] => ADP + Phosphate[n] + 2 NH3[n] + 6 Oxidized flavodoxin	<=>
-rxn06876	acyl-CoA:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and	|2.3.1.85|		10000000	10000000	cpd00005_c0 + cpd00022_c0[n] + cpd00067_c0 + cpd00070_c0 <=> cpd00006_c0 + cpd00010_c0 + cpd00011_c0 + cpd00487_c0[n]	TPNH + Acetyl-CoA[n] + H+ + Malonyl-CoA <=> TPN + CoA + CO2 + Higher fatty acid[n]	<=>
-rxn06877	Acyl-CoA:methylmalonyl-CoA C-acyltransferase (decarboxylating,	|2.3.1.111|		17.376	1.59977	cpd00005_c0 + cpd01675_c0 + cpd11611_c0[n] <=> cpd00006_c0[n] + cpd00010_c0[n] + cpd00011_c0 + cpd12444_c0[n]	TPNH + Methylmalonyl-CoA + Acyl-CoA[n] <=> TPN[n] + CoA[n] + CO2 + Multi-methyl-branched acyl-CoA[n]	<=>
-rxn06878	Acyl-CoA:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and	|2.3.1.86|		20.016	2.41531	cpd00004_c0 + cpd00005_c0 + cpd00022_c0[n] + cpd00067_c0 + cpd00070_c0 <=> cpd00003_c0 + cpd00006_c0 + cpd00010_c0[n] + cpd00011_c0 + cpd12196_c0[n]	NADH + TPNH + Acetyl-CoA[n] + H+ + Malonyl-CoA <=> NAD + TPN + CoA[n] + CO2 + Long-chain acyl-CoA[n]	<=>
 rxn06879	UDP-D-galacturonate:1,4-alpha-poly-D-galacturonate	|2.4.1.43|		10000000	10000000	cpd00472_c0 <=> cpd00014_c0 + cpd11601_c0	UDPgalacturonate => UDP + Pectin	<=>
-rxn06880	Calmodulin:ubiquitin ligase (AMP-forming)	|6.3.2.21|		10000000	10000000	cpd00002_c0 + cpd11666_c0 + cpd11689_c0[n] <=> cpd00012_c0[n] + cpd00018_c0 + cpd12295_c0	ATP + Calmodulin + Ubiquitin[n] <=> PPi[n] + AMP + (Ubiquitin)n-calmodulin	=>
 rxn06881	1,4-alpha-D-Glucan:1,4-alpha-D-glucan 4-alpha-D-glycosyltransferase	|2.4.1.25|		59.8	0.47955	(5) cpd00027_c0 + cpd11735_c0 <=> (5) cpd00179_c0	5 Glucose + Amylose => 5 Maltose	<=
 rxn06882	10-Formyltetrahydrofolyl L-glutamate:L-glutamate gamma-ligase	|6.3.2.17|		-6.354	0.856942	cpd00002_c0 + cpd00023_c0 + cpd03524_c0 <=> cpd00008_c0 + cpd00009_c0 + cpd00067_c0 + cpd12796_c0	ATP + GLU + 10-Formyl-THF-L-glutamate <=> ADP + Phosphate + H+ + 10-Formyl-THF-polyglutamate	=>
 rxn06883	Protein-N(pai)-phosphohistidine:sugar N(pai)-phosphotransferase	|2.7.1.69|	R05199	-13.89	0.947877	cpd00067_c0 + cpd00122_c0 + cpd12508_c0 <=> cpd00293_c0 + cpd11712_c0	H+ + GlcNAc + Protein N-pros-phosphohistidine <=> N-Acetyl-D-glucosamine 6-phosphate + Protein histidine	=>
@@ -6723,7 +6715,6 @@ rxn06895	rxn06895			-166.097	1.02704	cpd00007_c0 + cpd00024_c0 + cpd03975_c0 <=>
 rxn06896	4-Hydroxybenzoyl-CoA:(acceptor) oxidoreductase	|1.3.99.20|		10000000	10000000	cpd01892_c0 + cpd11609_c0 <=> cpd00001_c0 + cpd00401_c0 + cpd11610_c0	4-Hydroxybenzoyl-CoA + A => H2O + Benzoyl-CoA + AH2	<=>
 rxn06897	UDPglucose:cis-p-coumarate beta-D-glucosyltransferase	|2.4.1.209|	R05324	-1.7	0.632032	cpd00026_c0 + cpd04125_c0 <=> cpd00014_c0 + cpd12896_c0	UDPglucose + cis-p-Coumarate <=> UDP + 4'-O-beta-D-Glucosyl-cis-p-coumarate	<=>
 rxn06898	Uridine diphosphoglucose-limonoid glucosyltransferase	|2.4.1.210|	R05325	10000000	10000000	cpd00026_c0 + cpd02214_c0 <=> cpd00014_c0 + cpd12897_c0	UDPglucose + Evodin <=> UDP + Glucosyl-limonin	<=>
-rxn06899	rxn06899	|2.4.1.212|		10000000	10000000	cpd00037_c0 + cpd00144_c0[n] <=> cpd00014_c0 + cpd11691_c0	UDP-N-acetylglucosamine + UDPglucuronate[n] <=> UDP + Hyaluronate	<=>
 rxn06900	Spermidine:eIF5A-lysine 4-aminobutyltransferase	|2.5.1.46|	R05329	-4.98	1.03693	cpd00264_c0 + cpd13044_c0 <=> cpd00067_c0 + cpd00726_c0 + cpd13045_c0	Spermidine + [enzyme]-lysine <=> H+ + 1,3-Diaminopropane + [eIF5A-precursor]-deoxyhypusine	<=>
 rxn06901	Phospholipid:1,2-diacyl-sn-glycerol O-acyltransferase	|2.3.1.158|	R05333	0	2	cpd11423_c0 + cpd11765_c0 <=> cpd11677_c0 + cpd12849_c0	12dgr_BS + Phospholipid <=> Triglyceride + Lysophospholipid	<=>
 rxn06902	rxn06902			10000000	10000000	(6) cpd00067_c0 + cpd04008_c0 + (6) cpd12713_c0 <=> (2) cpd00001_c0 + cpd04009_c0	6 H+ + DNTP + 6 e- <=> 2 H2O + Aminoparathion	<=>
@@ -8345,8 +8336,7 @@ rxn09517	nucleoside-diphosphatase (dGDP)	|3.6.1.6|		-6.817	0.717554	cpd00001_c0 
 rxn09519	nitrilase	|3.5.5.1|		3.044	5.06244	(2) cpd00001_c0 + cpd00067_c0 + cpd03408_c0 <=> cpd00013_c0 + cpd00035_c0	2 H2O + H+ + alpha-Aminopropiononitrile <=> NH3 + ALA	<=>
 rxn09521	g-glutamyltransferase	|2.3.2.2|		0	2	cpd00035_c0 + cpd00042_c0 <=> cpd01017_c0 + cpd15236_c0	ALA + GSH <=> Cys-Gly + 5-L-Glutamyl-L-alanine	<=>
 rxn09522	succinate dehydrogenase (ubiquinone-6), mitochondrial	|1.3.5.1|		-12.89	3.22006	cpd00982_c0 + cpd15290_c0 <=> cpd00015_c0 + cpd15291_c0	FADH2 + Ubiquinone-6 <=> FAD + Ubiquinol-6	=>
-rxn09523	NADH dehydrogenase, mitochondrial	|1.6.99.3|		-17.44	2.83616	cpd00004_c0 + cpd00067_c0 + cpd15290_c0 <=> cpd00003_c0 + cpd15291_c0	NADH + H+ + Ubiquinone-6 <=> NAD + Ubiquinol-6	=garfieldamp1313
-rxn09528	ATP synthase, vacuole	|3.6.3.14|		6.817	0.717554	cpd00008_c0[v] + cpd00009_c0[v] + (3) cpd00067_c0 <=> cpd00001_c0[v] + cpd00002_c0[v] + (2) cpd00067_c0[v]	ADP[v] + Phosphate[v] + 3 H+ <=> H2O[v] + ATP[v] + 2 H+[v]	<=rxn09530	ATP synthase, Golgi Apparatus			6.817	0.717554	cpd00008_c0[g] + cpd00009_c0[g] + (3) cpd00067_c0 <=> cpd00001_c0[g] + cpd00002_c0[g] + (2) cpd00067_c0[g]	ADP[g] + Phosphate[g] + 3 H+ <=> H2O[g] + ATP[g] + 2 H+[g]	<=
+rxn09523	NADH dehydrogenase, mitochondrial	|1.6.99.3|		-17.44	2.83616	cpd00004_c0 + cpd00067_c0 + cpd15290_c0 <=> cpd00003_c0 + cpd15291_c0	NADH + H+ + Ubiquinone-6 <=> NAD + Ubiquinol-6	=>
 rxn09531	biotin synthase	|2.8.1.6|		-12.77	1.81743	cpd00074_c0 + cpd01311_c0 <=> (2) cpd00067_c0 + cpd00104_c0	S + Dethiobiotin <=> 2 H+ + BIOT	=>
 rxn09532	acyl carrier protein synthase, mitochondrial			-9.313	0.746895	cpd00001_c0 + cpd00010_c0 <=> cpd00045_c0 + cpd00834_c0	H2O + CoA <=> PAP + Phosphopantetheine	=>
 rxn09535	Phosphatidyl-N-methylethanolamine N-methyltransferase, yeast-specific	|2.1.1.16|		-9.0575	2.18226	cpd00017_c0 + (0.01) cpd12514_c0 <=> cpd00019_c0 + (0.01) cpd11624_c0	SAM + 0.01 Phosphatidyl-N-dimethylethanolamine <=> S-Adenosylhomocysteine + H+ + 0.01 Phosphatidylcholine, yeast-specific	=>
@@ -8489,78 +8479,6 @@ rxn09699	alpha-ketoglutarate/malate transporter			0	2	cpd00024_c0 + cpd00130_e0 
 rxn09700	acetaldehyde reversible transport			0	2	cpd00071_e0 <=> cpd00071_c0	AALD <=> AALD	<=>
 rxn09701	8-Amino-7-oxononanoate reversible transport via proton symport			0	2	cpd00067_e0 + cpd00800_e0 <=> cpd00067_c0 + cpd00800_c0	H+ + 8-Amino-7-oxononanoate <=> H+ + 8-Amino-7-oxononanoate	<=>
 rxn09702	5-Amino-4-oxopentanoate transport in via proton symport			0	2	cpd00067_e0 + cpd00338_e0 <=> cpd00067_c0 + cpd00338_c0	H+ + 5-Aminolevulinate <=> H+ + 5-Aminolevulinate	<=>
-rxn09703	phosphatidylserine Golgi transport, yeast-specific			0	2	cpd11455_c0 <=> cpd11455_c0[g]	phosphatidylserine, yeast-specific <=> phosphatidylserine, yeast-specific[g]	=>
-rxn09704	phosphatidylethanolamine Golgi transport, yeast-specific			0	2	cpd11456_c0 <=> cpd11456_c0[g]	phosphatidylethanolamine, yeast-specific <=> phosphatidylethanolamine, yeast-specific[g]	<=>
-rxn09705	GDP Golgi transport via proton anitport			0	2	cpd00031_c0[g] + cpd00067_c0 <=> cpd00031_c0 + cpd00067_c0[g]	GDP[g] + H+ <=> GDP + H+[g]	<=
-rxn09706	CO2 Golgi transport			0	2	cpd00011_c0 <=> cpd00011_c0[g]	CO2 <=> CO2[g]	<=>
-rxn09808	UMP nuclear transport			0	2	cpd00091_c0 <=> cpd00091_c0[n]	UMP <=> UMP[n]	<=>
-rxn09809	phosphatidyl-1D-myo-4-inositol nuclear transport, yeast-specific			0	2	cpd15288_c0 <=> cpd15288_c0[n]	phosphatidyl-1D-myo-4-inositol, yeast specific <=> phosphatidyl-1D-myo-4-inositol, yeast specific[n]	=>
-rxn09810	phosphatidyl-1D-myo-insoitol nuclear transport, yeast-specific			0	2	cpd11822_c0 <=> cpd11822_c0[n]	phosphatidyl-1D-myo-inositol, yeast-specific <=> phosphatidyl-1D-myo-inositol, yeast-specific[n]	<=>
-rxn09811	phosphate nuclear transport via proton symport			0	2	cpd00009_c0 + cpd00067_c0 <=> cpd00009_c0[n] + cpd00067_c0[n]	Phosphate + H+ <=> Phosphate[n] + H+[n]	<=>
-rxn09812	H2O transport, nuclear			0	2	cpd00001_c0[n] <=> cpd00001_c0	H2O[n] <=> H2O	<=
-rxn09813	glutamate nuclear transport via proton symport			0	2	cpd00023_c0 + cpd00067_c0 <=> cpd00023_c0[n] + cpd00067_c0[n]	GLU + H+ <=> GLU[n] + H+[n]	<=>
-rxn09814	glutamine nuclear transport via proton symport			0	2	cpd00053_c0 + cpd00067_c0 <=> cpd00053_c0[n] + cpd00067_c0[n]	L-Glutamine + H+ <=> L-Glutamine[n] + H+[n]	<=>
-rxn09815	GDP nuclear transport			0	2	cpd00031_c0 <=> cpd00031_c0[n]	GDP <=> GDP[n]	=>
-rxn09816	dUMP nuclear transport			0	2	cpd00299_c0 <=> cpd00299_c0[n]	dUMP <=> dUMP[n]	<=>
-rxn09817	(S)-Dihydrooroate nuclear transport			0	2	cpd00282_c0 <=> cpd00282_c0[n]	L-Dihydroorotate <=> L-Dihydroorotate[n]	<=>
-rxn09818	dGDP nuclear transport			0	2	cpd00295_c0 <=> cpd00295_c0[n]	dGDP <=> dGDP[n]	=>
-rxn09819	dCDP nuclear transport			0	2	cpd00533_c0 <=> cpd00533_c0[n]	dCDP <=> dCDP[n]	=>
-rxn09820	DADP nuclear transport			0	2	cpd00177_c0 <=> cpd00177_c0[n]	dADP <=> dADP[n]	=>
-rxn09821	CO2 nuclear transport via diffusion			0	2	cpd00011_c0[n] <=> cpd00011_c0	CO2[n] <=> CO2	<=>
-rxn09822	CDP nuclear transport			0	2	cpd00096_c0 <=> cpd00096_c0[n]	CDP <=> CDP[n]	=>
-rxn09823	carbamoyl phosphate nuclear transport via diffusion			0	2	cpd00146_c0 <=> cpd00146_c0[n]	Carbamoylphosphate <=> Carbamoylphosphate[n]	<=>
-rxn09824	N-carbomoyl-L-aspartate transport, diffusion			0	2	cpd00343_c0[n] <=> cpd00343_c0	N-Carbamoyl-L-aspartate[n] <=> N-Carbamoyl-L-aspartate	<=
-rxn09825	aspartate nuclear transport via proton symport			0	2	cpd00041_c0 + cpd00067_c0 <=> cpd00041_c0[n] + cpd00067_c0[n]	Aspartate + H+ <=> Aspartate[n] + H+[n]	<=>
-rxn09826	S-adenosyl-L-methionine nuclear transport			0	2	cpd00017_c0 <=> cpd00017_c0[n]	SAM <=> SAM[n]	<=>
-rxn09827	2-oxoglutarate nuclear transport via proton symport			0	2	cpd00024_c0 + cpd00067_c0 <=> cpd00024_c0[n] + cpd00067_c0[n]	2-Oxoglutarate + H+ <=> 2-Oxoglutarate[n] + H+[n]	<=>
-rxn09828	S-adenosyl-L-homocysteine nuclear transport			0	2	cpd00019_c0 <=> cpd00019_c0[n]	S-Adenosylhomocysteine <=> S-Adenosylhomocysteine[n]	<=>
-rxn09829	2-Octaprenyl-6-methoxyprenol nuclear transport			0	2	cpd15202_c0 <=> cpd15202_c0[n]	2-Octaprenyl-6-methoxyphenol (5 repeating units) <=> 2-Octaprenyl-6-methoxyphenol (5 repeating units)[n]	<=>
-rxn09830	2-Octaprenyl-6-hydroxyphenol nuclear transport			0	2	cpd15198_c0 <=> cpd15198_c0[n]	2-Octaprenyl-6-hydroxyphenol (5 repeating units) <=> 2-Octaprenyl-6-hydroxyphenol (5 repeating units)[n]	<=>
-rxn09831	tyrosine peroxisomal transport via proton symport			0	2	cpd00067_c0 + cpd00069_c0 <=> cpd00067_c0[x] + cpd00069_c0[x]	H+ + Tyrosine <=> H+[x] + Tyrosine[x]	<=>
-rxn09832	pyruvate peroxisomal transport via proton symport			0	2	cpd00020_c0 + cpd00067_c0 <=> cpd00020_c0[x] + cpd00067_c0[x]	Pyruvate + H+ <=> Pyruvate[x] + H+[x]	<=>
-rxn09833	phosphate peroxisomal transport via proton symport			0	2	cpd00009_c0 + cpd00067_c0 <=> cpd00009_c0[x] + cpd00067_c0[x]	Phosphate + H+ <=> Phosphate[x] + H+[x]	<=>
-rxn09834	NMN peroxisomal transport via proton symport			0	2	cpd00067_c0 + cpd00355_c0 <=> cpd00067_c0[x] + cpd00355_c0[x]	H+ + NMN <=> H+[x] + NMN[x]	<=>
-rxn09835	ammonia peroxisomal transport			0	2	cpd00013_c0 <=> cpd00013_c0[x]	NH3 <=> NH3[x]	<=
-rxn09836	malate/oxaloacetate shuttle			0	2	cpd00032_c0 + cpd00130_c0[x] <=> cpd00032_c0[x] + cpd00130_c0	Oxaloacetate + MALA[x] <=> Oxaloacetate[x] + MALA	<=>
-rxn09837	Homocysteine peroxisomal transport via proton symport			0	2	cpd00067_c0 + cpd00135_c0 <=> cpd00067_c0[x] + cpd00135_c0[x]	H+ + L-Homocysteine <=> H+[x] + L-Homocysteine[x]	<=>
-rxn09838	water transport by diffusion, peroxisomal			0	2	cpd00001_c0 <=> cpd00001_c0[x]	H2O <=> H2O[x]	<=
-rxn09839	glyoxylate transport, peroxisomal			0	2	cpd00040_c0 <=> cpd00040_c0[x]	Glyoxylate <=> Glyoxylate[x]	<=>
-rxn09840	fatty acid peroxisomal transport			0	2	cpd03846_c0 <=> cpd03846_c0[x]	octanoate <=> octanoate[x]	<=>
-rxn09841	fatty acid peroxisomal transport			0	2	cpd15240_c0 <=> cpd15240_c0[x]	hexacosanoate <=> hexacosanoate[x]	<=>
-rxn09842	fatty acid peroxisomal transport			0	2	cpd05235_c0 <=> cpd05235_c0[x]	tetracosanoate <=> tetracosanoate[x]	<=>
-rxn09843	fatty acyl-CoA peroxisomal transport via ABC system			-6.817	0.717554	cpd00001_c0[x] + cpd00002_c0[x] + cpd15272_c0 <=> cpd00008_c0[x] + cpd00009_c0[x] + cpd00067_c0[x] + cpd15272_c0[x]	H2O[x] + ATP[x] + Octadecynoyl-CoA <=> ADP[x] + Phosphate[x] + H+[x] + Octadecynoyl-CoA[x]	=>
-rxn09844	fatty acyl-CoA peroxisomal transport via ABC system			-6.817	0.717554	cpd00001_c0[x] + cpd00002_c0[x] + cpd15274_c0 <=> cpd00008_c0[x] + cpd00009_c0[x] + cpd00067_c0[x] + cpd15274_c0[x]	H2O[x] + ATP[x] + Octadecenoyl-CoA <=> ADP[x] + Phosphate[x] + H+[x] + Octadecenoyl-CoA[x]	=>
-rxn09845	fatty acyl-CoA transport via ABC system			-6.817	0.717554	cpd00001_c0[x] + cpd00002_c0[x] + cpd00327_c0 <=> cpd00008_c0[x] + cpd00009_c0[x] + cpd00067_c0[x] + cpd00327_c0[x]	H2O[x] + ATP[x] + strcoa <=> ADP[x] + Phosphate[x] + H+[x] + strcoa[x]	=>
-rxn09846	fatty acid peroxisomal transport			0	2	cpd15237_c0 <=> cpd15237_c0[x]	hexadecenoate <=> hexadecenoate[x]	<=>
-rxn09847	fatty acyl-CoA peroxisomal transport via ABC system			-6.817	0.717554	cpd00001_c0[x] + cpd00002_c0[x] + cpd15238_c0 <=> cpd00008_c0[x] + cpd00009_c0[x] + cpd00067_c0[x] + cpd15238_c0[x]	H2O[x] + ATP[x] + Hexadecenoyl-CoA <=> ADP[x] + Phosphate[x] + H+[x] + Hexadecenoyl-CoA[x]	=>
-rxn09848	fatty acid peroxisomal transport			0	2	cpd00214_c0 <=> cpd00214_c0[x]	Palmitate <=> Palmitate[x]	<=>
-rxn09849	fatty acyl-CoA peroxisomal transport via ABC system			-6.817	0.717554	cpd00001_c0[x] + cpd00002_c0[x] + cpd00134_c0 <=> cpd00008_c0[x] + cpd00009_c0[x] + cpd00067_c0[x] + cpd00134_c0[x]	H2O[x] + ATP[x] + Palmitoyl-CoA <=> ADP[x] + Phosphate[x] + H+[x] + Palmitoyl-CoA[x]	=>
-rxn09850	fatty acid peroxisomal transport			0	2	cpd15298_c0 <=> cpd15298_c0[x]	tetradecenoate <=> tetradecenoate[x]	<=>
-rxn09851	fatty acid peroxisomal transport via ABC system			-6.817	0.717554	cpd00001_c0[x] + cpd00002_c0[x] + cpd15295_c0 <=> cpd00008_c0[x] + cpd00009_c0[x] + cpd00067_c0[x] + cpd15295_c0[x]	H2O[x] + ATP[x] + Tetradecenoyl-CoA <=> ADP[x] + Phosphate[x] + H+[x] + Tetradecenoyl-CoA[x]	=>
-rxn09852	fatty acid peroxisomal transport			0	2	cpd03847_c0 <=> cpd03847_c0[x]	Myristic acid <=> Myristic acid[x]	<=>
-rxn09853	fatty acid peroxisomal transport via ABC system			-6.817	0.717554	cpd00001_c0[x] + cpd00002_c0[x] + cpd01695_c0 <=> cpd00008_c0[x] + cpd00009_c0[x] + cpd00067_c0[x] + cpd01695_c0[x]	H2O[x] + ATP[x] + Myristoyl-CoA <=> ADP[x] + Phosphate[x] + H+[x] + Myristoyl-CoA[x]	=>
-rxn09854	fatty acid peroxisomal transport			0	2	cpd01741_c0 <=> cpd01741_c0[x]	ddca <=> ddca[x]	<=>
-rxn09855	fatty acid peroxisomal transport			0	2	cpd01107_c0 <=> cpd01107_c0[x]	Decanoate <=> Decanoate[x]	<=>
-rxn09856	L-erythro-4-hydroxyglutamate peroxisomal transport via diffusion			0	2	cpd01974_c0 <=> cpd01974_c0[x]	4-Hydroxy-L-glutamate <=> 4-Hydroxy-L-glutamate[x]	<=>
-rxn09858	carnitine transport into peroxsiome			0	2	cpd00266_c0 <=> cpd00266_c0[x]	Carnitine <=> Carnitine[x]	<=>
-rxn09859	carnitine-acetylcarnitine carrier, peroxisomal			0	2	cpd00266_c0 + cpd01682_c0[x] <=> cpd00266_c0[x] + cpd01682_c0	Carnitine + O-Acetylcarnitine[x] <=> Carnitine[x] + O-Acetylcarnitine	<=>
-rxn09860	CO2 peroxisomal transport			0	2	cpd00011_c0 <=> cpd00011_c0[x]	CO2 <=> CO2[x]	<=>
-rxn09861	citrate/isocitrate antiport into peroxisome			0	2	cpd00137_c0 + cpd00260_c0[x] <=> cpd00137_c0[x] + cpd00260_c0	Citrate + Isocitrate[x] <=> Citrate[x] + Isocitrate	<=>
-rxn09862	citrate/malate antiport into peroxisome			0	2	cpd00130_c0 + cpd00137_c0[x] <=> cpd00130_c0[x] + cpd00137_c0	MALA + Citrate[x] <=> MALA[x] + Citrate	<=>
-rxn09863	ADP/ATP transporter, peroxisomal			0	2	cpd00002_c0 + cpd00008_c0[x] + cpd00067_c0[x] <=> cpd00002_c0[x] + cpd00008_c0 + cpd00067_c0	ATP + ADP[x] + H+[x] <=> ATP[x] + ADP + H+	<=>
-rxn09864	AMP/ATP transporter, peroxisomal			0	2	cpd00002_c0 + cpd00018_c0[x] + cpd00067_c0[x] <=> cpd00002_c0[x] + cpd00018_c0 + cpd00067_c0	ATP + AMP[x] + H+[x] <=> ATP[x] + AMP + H+	=>
-rxn09865	aspartate-glutamate peroxisomal shuttle			0	2	cpd00023_c0[x] + cpd00041_c0 <=> cpd00023_c0 + cpd00041_c0[x]	GLU[x] + Aspartate <=> GLU + Aspartate[x]	<=>
-rxn09866	acetate transport, peroxisomal			0	2	cpd00029_c0 <=> cpd00029_c0[x]	ACET <=> ACET[x]	<=>
-rxn09867	acetylcarnitine transport out of peroxisome			0	2	cpd01682_c0[x] <=> cpd01682_c0	O-Acetylcarnitine[x] <=> O-Acetylcarnitine	<=>
-rxn09868	4-hydroxy-2-oxoglutarate peroxisomal transport via diffusion			0	2	cpd00830_c0 <=> cpd00830_c0[x]	4-Hydroxy-2-oxoglutarate <=> 4-Hydroxy-2-oxoglutarate[x]	=>
-rxn09869	3-(4-hydroxyphenyl)pyruvate peroxisomal transport via proton symport			0	2	cpd00067_c0 + cpd00868_c0 <=> cpd00067_c0[x] + cpd00868_c0[x]	H+ + 4-Hydroxyphenylpyruvate <=> H+[x] + 4-Hydroxyphenylpyruvate[x]	<=>
-rxn09870	trehalose vacuolar transport via proton symport			0	2	cpd00067_c0 + cpd00794_c0 <=> cpd00067_c0[v] + cpd00794_c0[v]	H+ + TRHL <=> H+[v] + TRHL[v]	<=>
-rxn09871	phosphatidylserine vacuolar transport, yeast-specific			0	2	cpd11455_c0 <=> cpd11455_c0[v]	phosphatidylserine, yeast-specific <=> phosphatidylserine, yeast-specific[v]	=>
-rxn09872	phosphate vacuolar transport via proton symport			0	2	cpd00009_c0 + cpd00067_c0 <=> cpd00009_c0[v] + cpd00067_c0[v]	Phosphate + H+ <=> Phosphate[v] + H+[v]	<=>
-rxn09873	phosphatidylethanolamine vacuolar transport, yeast-specific			0	2	cpd11456_c0 <=> cpd11456_c0[v]	phosphatidylethanolamine, yeast-specific <=> phosphatidylethanolamine, yeast-specific[v]	<=>
-rxn09874	H2O transport, vacuolar			0	2	cpd00001_c0 <=> cpd00001_c0[v]	H2O <=> H2O[v]	<=
-rxn09875	glucose transport, vacuolar			0	2	cpd00027_c0 <=> cpd00027_c0[v]	Glucose <=> Glucose[v]	<=>
-rxn09876	CO2 vacuolar transport			0	2	cpd00011_c0 <=> cpd00011_c0[v]	CO2 <=> CO2[v]	<=>
 rxn09878	polyamine oxidase	|1.5.3.11|		-23.5027	1.2779	cpd00001_c0 + cpd00007_c0 + cpd00470_c0 <=> cpd00025_c0 + cpd01504_c0 + cpd01758_c0	H2O + O2 + N1-Acetylspermidine <=> H2O2 + 3-Aminopropanal + N-Acetylputrescine	=>
 rxn09880	diamine transaminase	|2.6.1.29|		-5.294	1.25997	cpd00022_c0 + cpd00558_c0 <=> cpd00010_c0 + cpd00067_c0 + cpd01680_c0	Acetyl-CoA + SPRM <=> CoA + H+ + N1-Acetylspermine	=>
 rxn09882	aldehyde dehydrogenase (indole-3-acetaldehyde, NADP), mitochondrial			-9.803	1.17612	cpd00001_c0 + cpd00006_c0 + cpd00486_c0 <=> cpd00005_c0 + (2) cpd00067_c0 + cpd00703_c0	H2O + TPN + Indoleacetaldehyde <=> TPNH + 2 H+ + Indoleacetate	=>
@@ -8959,7 +8877,6 @@ rxn10363	glycogen phosphorylase	|2.4.1.1|		-0.796	0.676477	cpd00009_c0 + cpd0006
 rxn10381	UDP-L-Ara4N formyltransferase			2.73	1.38166	cpd00201_c0 + cpd15577_c0 <=> cpd00087_c0 + cpd15660_c0	10-Formyl-THF + uridine 5''-diphospho- <=> THF + uridine 5''-diphospho-one	<=>
 rxn10382	undecaprenyl phosphate-L-Ara4FN transferase			0	2	cpd00286_c0 + cpd15660_c0 <=> cpd00014_c0 + cpd15575_c0	Undecaprenylphosphate + uridine 5''-diphospho-one <=> UDP + undecaprenyl phosphate-4-amino-4-formyl-L-arabinose	<=>
 rxn10383	glycogen (starch) synthase	|2.4.1.11|		10000000	10000000	cpd00001_c0 + cpd00026_c0 + cpd16143_c0 <=> cpd00014_c0 + cpd00067_c0 + cpd11735_c0	H2O + UDPglucose + amylose(n-1) <=> UDP + H+ + Amylose	<=>
-rxn10398	cystathione peroxisomal transport			0	2	cpd00424_c0 <=> cpd00424_c0[x]	Cystathionine <=> Cystathionine[x]	<=>
 rxn10401	Maltodextrin glucosidase (dextrin)			687.494	6.20907	(2) cpd00001_c0 + cpd11594_c0 <=> (2) cpd00027_c0	2 H2O + Dextrin <=> 2 Glucose	<=
 rxn10403	1-acylglycerol-3-phosphate O-acyltransferase	|2.3.1.51|		10000000	10000000	(0.1) cpd00134_c0 + (0.03) cpd00327_c0 + (0.03) cpd01695_c0 + (0.01) cpd11424_c0 + (0.07) cpd15801_c0 + (0.17) cpd15802_c0 + (0.01) cpd15803_c0 + (0.2) cpd15804_c0 + (0.34) cpd15805_c0 + (0.05) cpd15806_c0 <=> cpd00010_c0 + (0.01) cpd11422_c0	0.1 Palmitoyl-CoA + 0.03 strcoa + 0.03 Myristoyl-CoA + 0.01 1ag3p_BS + 0.07 Iso-C17:0 CoA + 0.17 Anteiso-C17:0 CoA + 0.01 Iso-C14:0 CoA + 0.2 Iso-C15:0 CoA + 0.34 Anteiso-C15:0 CoA + 0.05 Iso-C16:0 CoA <=> CoA + 0.01 12dag3p_BS	<=>
 rxn10404	fatty-acid--CoA ligase (Iso-C14:0)	|6.2.1.3|		-2.486	1.23168	cpd00002_c0 + cpd00010_c0 + cpd00067_c0 + cpd11430_c0 <=> cpd00012_c0 + cpd00018_c0 + cpd15803_c0	ATP + CoA + H+ + fa1 <=> PPi + AMP + Iso-C14:0 CoA	=>
@@ -11191,28 +11108,19 @@ rxn13207	4-hydroxybenzoyl-CoA formation			10000000	10000000	cpd00001_c0 + cpd000
 rxn13208	4-hydroxybenzoate formation			10000000	10000000	cpd00001_c0 + cpd16876_c0 <=> cpd00010_c0 + cpd00067_c0 + cpd00136_c0	NONE	<=>
 rxn13209	4-Methyl-2-oxopentanoate decarboxylase			-4.09	0.595908	cpd00067_c0 + cpd00200_c0 <=> cpd00011_c0 + cpd04534_c0	NONE	=>
 rxn13211	Acetaldehyde condensation			-5.32	1.05793	(2) cpd00071_c0 <=> cpd00361_c0	NONE	<=>
-rxn13213	acetyl-CoA transport, nuclear				2	cpd00022_c0 <=> cpd00022_c0[n]	NONE	=>
 rxn13214	acetic ester transport (extracellular)				2	cpd11966_c0 <=> cpd11966_e0	NONE	<=>
 rxn13215	Isoamyl acetate-hydrolyzing esterase			-3.683	0.840143	cpd00001_c0 + cpd09068_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd04533_c0	NONE	=>
 rxn13216	Isobutyl acetate-hydrolyzing esterase			10000000	10000000	cpd00001_c0 + cpd16884_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd10408_c0	NONE	<=>
 rxn13217	Ethyl acetate-hydrolyzing esterase			10000000	10000000	cpd00001_c0 + cpd11966_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd00363_c0	NONE	<=>
 rxn13218	trans-aconitate 3-methyltransferase			10000000	10000000	cpd00017_c0 + cpd01563_c0 <=> cpd00019_c0 + cpd16879_c0	NONE	<=>
-rxn13220	AKG transporter, peroxisome				2	cpd00024_c0 <=> cpd00024_c0[x]	NONE	=>
 rxn13222	aldehyde dehydrogenase (2-methylbutanol, NAD)			10000000	10000000	cpd00004_c0 + cpd00067_c0 + cpd01499_c0 <=> cpd00003_c0 + cpd16873_c0	NONE	<=>
 rxn13223	aldehyde dehydrogenase (2-methylbutanol, NADP)			10000000	10000000	cpd00005_c0 + cpd00067_c0 + cpd01499_c0 <=> cpd00006_c0 + cpd16873_c0	NONE	<=>
 rxn13224	aldehyde dehydrogenase (isobutyl alcohol, NAD)			10000000	10000000	cpd00004_c0 + cpd00067_c0 + cpd16874_c0 <=> cpd00003_c0 + cpd10408_c0	NONE	<=>
 rxn13225	aldehyde dehydrogenase (isobutyl alcohol, NADP)			10000000	10000000	cpd00005_c0 + cpd00067_c0 + cpd16874_c0 <=> cpd00006_c0 + cpd10408_c0	NONE	<=>
 rxn13226	aldehyde dehydrogenase (2-phenylethanol, NADP)			-5.22	1.06983	cpd00005_c0 + cpd00067_c0 + cpd00464_c0 <=> cpd00006_c0 + cpd03481_c0	NONE	<=>
-rxn13227	AMP transport via diffusion (cytosol to nucleus)				2	cpd00018_c0[n] <=> cpd00018_c0	NONE	<=>
-rxn13228	L-arginine transport in via proton antiport (vacuolar)				2	cpd00051_c0 + cpd00067_c0[v] <=> cpd00051_c0[v] + cpd00067_c0	NONE	<=>
-rxn13229	L-asparagine transport in via proton antiport (vacuolar)				2	cpd00067_c0[v] + cpd00132_c0 <=> cpd00067_c0 + cpd00132_c0[v]	NONE	<=>
-rxn13230	L-asparagine transport out via proton symport, vacuolar				2	cpd00067_c0[v] + cpd00132_c0[v] <=> cpd00067_c0 + cpd00132_c0	NONE	<=>
-rxn13232	L-aspartate nuclear transport via diffusion				2	cpd00041_c0[n] <=> cpd00041_c0	NONE	<=>
-rxn13233	L-aspartate transport out via proton symport, vacuolar				2	cpd00041_c0[v] + cpd00067_c0[v] <=> cpd00041_c0 + cpd00067_c0	NONE	<=>
 rxn13234	C-22 sterol desaturase (NAD)			10000000	1.66874	cpd00004_c0 + cpd00007_c0 + cpd14515_c0 <=> (2) cpd00001_c0 + cpd00003_c0 + cpd03223_c0	NONE	<=garfieldamp1313
 rxn13241	chitin deacetylase			-317.793	3.15677	cpd00001_c0 + cpd11683_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd11741_c0 + cpd15304_c0	NONE	=>
 rxn13242	chitin synthase			-1.7	0.632032	cpd00175_c0 + cpd15304_c0 <=> cpd00014_c0 + cpd00067_c0 + cpd11683_c0	NONE	<=>
-rxn13244	coenzyme A transport, nuclear				2	cpd00010_c0 <=> cpd00010_c0[n]	NONE	=>
 rxn13251	Fumarate dependent DHORD			-10.22	0.767886	cpd00106_c0 + cpd00282_c0 <=> cpd00036_c0 + cpd00247_c0	NONE	=>
 rxn13253	Endopolygalacturonase (extracellular)			10000000	10000000	cpd00001_c0 + cpd11601_c0 <=> cpd00280_c0	NONE	<=>
 rxn13254	Acyl-CoA:episterol acyltransferase, yeast-specific			10000000	10000000	(0.02) cpd00134_c0 + (0.03) cpd00327_c0 + (0.015) cpd01695_c0 + (0.01) cpd14514_c0 + (0.655) cpd15238_c0 + (0.01) cpd15241_c0 + (0.27) cpd15274_c0 <=> cpd00010_c0 + (0.01) cpd16880_c0	NONE	<=>
@@ -11228,27 +11136,15 @@ rxn13288	fecosterol ester hydrolase, yeast-specific			10000000	10000000	cpd00001
 rxn13291	glycero-3-phosphocholine transport (extracellular to cytosol)				2	cpd00507_e0 <=> cpd00507_c0	NONE	<=>
 rxn13292	glycero-3-phospho-1-inositol transport (extracellular to cytosol)				2	cpd00902_e0 <=> cpd00902_c0	NONE	<=>
 rxn13295	1,4-alpha-glucan branching enzyme			-56.687	0.5	cpd11735_c0 <=> cpd00001_c0 + cpd00155_c0	NONE	=>
-rxn13296	GDP-mannose antiport				2	cpd00083_c0 + cpd00126_c0[g] <=> cpd00083_c0[g] + cpd00126_c0	NONE	<=>
 rxn13297	glucan 1,4-alpha-glucosidase			690.607	6.08301	cpd00001_c0 + cpd00155_c0 <=> cpd00027_c0	NONE	<=
-rxn13298	Glycogen vacuolar 'transport' via autophagy				2	cpd00155_c0 <=> cpd00155_c0[v]	NONE	<=>
 rxn13299	glycogen phosphorylase			683.394	6.11761	cpd00009_c0 + cpd00155_c0 <=> cpd00089_c0	NONE	<=
 rxn13300	glycogen synthase (UDPGlc)			-704.95	6.11286	cpd00026_c0 <=> cpd00014_c0 + cpd00067_c0 + cpd00155_c0	NONE	=>
-rxn13301	L-glutamine transport in via proton antiport (vacuolar)				2	cpd00053_c0 + cpd00067_c0[v] <=> cpd00053_c0[v] + cpd00067_c0	NONE	<=>
-rxn13302	L-glutamine transport out via proton symport, vacuolar				2	cpd00053_c0[v] + cpd00067_c0[v] <=> cpd00053_c0 + cpd00067_c0	NONE	<=>
-rxn13303	L-glutamate transport out via proton symport, vacuolar				2	cpd00023_c0[v] + cpd00067_c0[v] <=> cpd00023_c0 + cpd00067_c0	NONE	<=>
 rxn13305	glyoxylate transport				2	cpd00040_c0 <=> cpd00040_e0	NONE	<=>
-rxn13306	Reduced glutathione via ABC system (vacuolar)			-6.817	0.717554	cpd00001_c0[v] + cpd00002_c0[v] + cpd00042_c0 <=> cpd00008_c0[v] + cpd00009_c0[v] + cpd00042_c0[v] + cpd00067_c0[v]	NONE	=>
-rxn13308	hydrogen peroxide nuclear transport				2	cpd00025_c0 <=> cpd00025_c0[n]	NONE	<=>
-rxn13310	bicarbonate nuclear transport via diffusion				2	cpd00242_c0 <=> cpd00242_c0[n]	NONE	<=>
 rxn13311	Heme O monooxygenase, mitochondrial			10000000	10000000	cpd00004_c0 + cpd00007_c0 + cpd11313_c0 <=> cpd00001_c0 + cpd00003_c0 + cpd11312_c0	NONE	<=>
-rxn13312	fatty acid intracellular transport				2	cpd15241_c0 <=> cpd15241_c0[x]	NONE	=>
-rxn13314	L-histidine transport in via proton antiport (vacuolar)				2	cpd00067_c0[v] + cpd00119_c0 <=> cpd00067_c0 + cpd00119_c0[v]	NONE	<=>
 rxn13315	Isoamyl acetate transport (extracellular)				2	cpd09068_c0 <=> cpd09068_e0	NONE	<=>
 rxn13316	isoamyl alcohol transport (extracellular)				2	cpd04533_c0 <=> cpd04533_e0	NONE	<=>
 rxn13318	Isobutyl acetate transport (extracellular)				2	cpd16884_c0 <=> cpd16884_e0	NONE	<=>
 rxn13319	isobutyl alcohol transport (extracellular)				2	cpd10408_c0 <=> cpd10408_e0	NONE	<=>
-rxn13321	L-isoleucine transport in via proton antiport (vacuolar)				2	cpd00067_c0[v] + cpd00322_c0 <=> cpd00067_c0 + cpd00322_c0[v]	NONE	<=>
-rxn13322	L-isoleucine transport out via proton symport, vacuolar				2	cpd00067_c0[v] + cpd00322_c0[v] <=> cpd00067_c0 + cpd00322_c0	NONE	<=>
 rxn13324	Tryptophol transport (extracellular				2	cpd00704_c0 <=> cpd00704_e0	NONE	<=>
 rxn13326	inositol phosphorylceramide, ceramide-1 (24C) phospholipase C			-433.469	3.68487	cpd00001_c0 + (0.01) cpd15243_c0 <=> cpd00067_c0 + cpd00867_c0 + cpd15220_c0	NONE	=>
 rxn13327	inositol phosphorylceramide, ceramide-1 (26C) phospholipase C			-430.262	3.83754	cpd00001_c0 + (0.01) cpd15244_c0 <=> cpd00067_c0 + cpd00867_c0 + cpd15221_c0	NONE	=>
@@ -11258,15 +11154,9 @@ rxn13330	inositol phosphorylceramide, ceramide-3 (24C) phospholipase C			-508.78
 rxn13331	inositol phosphorylceramide, ceramide-3 (26C) phospholipase C			-505.581	3.78842	cpd00001_c0 + (0.01) cpd15248_c0 <=> cpd00067_c0 + cpd00867_c0 + cpd15227_c0	NONE	=>
 rxn13335	Acyl-CoA:lanosterol acyltransferase, yeast-specific			10000000	10000000	(0.02) cpd00134_c0 + (0.03) cpd00327_c0 + (0.01) cpd01188_c0 + (0.015) cpd01695_c0 + (0.655) cpd15238_c0 + (0.01) cpd15241_c0 + (0.27) cpd15274_c0 <=> cpd00010_c0 + (0.01) cpd16885_c0	NONE	<=>
 rxn13336	lanosterol ester hydrolase, yeast-specific			10000000	10000000	cpd00001_c0 + (0.01) cpd16885_c0 <=> (0.02) cpd00214_c0 + (0.03) cpd01080_c0 + (0.01) cpd01188_c0 + (0.015) cpd03847_c0 + (0.655) cpd15237_c0 + (0.01) cpd15240_c0 + (0.27) cpd15269_c0	NONE	<=>
-rxn13338	L-cystine transport via proton symport (vacuolar)				2	cpd00067_c0[v] + cpd00367_c0[v] <=> cpd00367_c0	NONE	<=>
-rxn13339	L-leucine transport in via proton antiport (vacuolar)				2	cpd00067_c0[v] + cpd00107_c0 <=> cpd00067_c0 + cpd00107_c0[v]	NONE	<=>
-rxn13340	L-leucine transport out via proton symport, vacuolar				2	cpd00067_c0[v] + cpd00107_c0[v] <=> cpd00067_c0 + cpd00107_c0	NONE	<=>
 rxn13341	cytochrome P450 lanosterol 14-alpha-demethylase (NAD)			-294.457	5.24754	(3) cpd00004_c0 + (3) cpd00007_c0 + (2) cpd00067_c0 + cpd01188_c0 <=> (4) cpd00001_c0 + (3) cpd00003_c0 + cpd00047_c0 + cpd15209_c0	NONE	=>
 rxn13342	Lyso-phosphatidylcholine acyltransferase acyltransferase, yeast-specific			10000000	10000000	(0.27) cpd00134_c0 + (0.05) cpd00327_c0 + (0.06) cpd01260_c0 + (0.1) cpd01695_c0 + (0.02) cpd03128_c0 + (0.17) cpd15238_c0 + (0.09) cpd15272_c0 + (0.24) cpd15274_c0 + (0.01) cpd16871_c0 <=> cpd00010_c0 + (0.01) cpd11624_c0	NONE	<=>
-rxn13343	L-lysine transport in via proton antiport (vacuolar)				2	cpd00039_c0 + cpd00067_c0[v] <=> cpd00039_c0[v] + cpd00067_c0	NONE	<=>
 rxn13344	inositol-1,3,4,5-triphosphate 6-kinase, nucleus			-4.5	0.23673	cpd00002_c0 + cpd00934_c0 <=> cpd00008_c0 + cpd00067_c0 + cpd00943_c0	NONE	<=>
-rxn13345	1D-myo-Inositol 1,4,5-trisphosphate nuclear transport via diffusion				2	cpd00916_c0 <=> cpd00916_c0[n]	NONE	=>
-rxn13346	inositol hexakisphosphate nuclear transport (diffusion)				2	cpd00885_c0 <=> cpd00885_c0[n]	NONE	=>
 rxn13347	Mannose-(inositol-P)2-ceramide, ceramide-1 (24C) phospholipase C			10000000	10000000	cpd00001_c0 + (0.01) cpd15253_c0 <=> cpd00067_c0 + cpd15220_c0 + cpd16886_c0	NONE	<=>
 rxn13348	Mannose-(inositol-P)2-ceramide, ceramide-1 (26C) phospholipase C			10000000	10000000	cpd00001_c0 + (0.01) cpd15254_c0 <=> cpd00067_c0 + cpd15221_c0 + cpd16886_c0	NONE	<=>
 rxn13349	Mannose-(inositol-P)2-ceramide, ceramide-2 (24C) phospholipase C			10000000	10000000	cpd00001_c0 + (0.01) cpd15255_c0 <=> cpd00067_c0 + cpd15224_c0 + cpd16886_c0	NONE	<=>
@@ -11280,10 +11170,8 @@ rxn13356	Mannose-inositol phosphorylceramide, ceramide-2 (26C) phospholipase C		
 rxn13357	Mannose-inositol phosphorylceramide, ceramide-3 (24C) phospholipase C			10000000	10000000	cpd00001_c0 + (0.01) cpd15263_c0 <=> cpd00067_c0 + cpd15226_c0 + cpd16887_c0	NONE	<=>
 rxn13358	Mannose-inositol phosphorylceramide, ceramide-3 (26C) phospholipase C			10000000	10000000	cpd00001_c0 + (0.01) cpd15264_c0 <=> cpd00067_c0 + cpd15227_c0 + cpd16887_c0	NONE	<=>
 rxn13360	NADP transporter				2	cpd00006_c0 <=> cpd00006_e0	NONE	=>
-rxn13361	NAD transport, nuclear through pores				2	cpd00003_c0[n] <=> cpd00003_c0	NONE	<=>
 rxn13362	N,N-bisformyl-dityrosine transport (extracellular)				2	cpd16877_c0 <=> cpd16877_e0	NONE	=>
 rxn13363	N-formyltyrosine oxidase			10000000	10000000	cpd00005_c0 + cpd00067_c0 + (2) cpd16878_c0 <=> cpd00006_c0 + cpd16877_c0	NONE	<=>
-rxn13364	ammonia nuclear transport				2	cpd00013_c0 <=> cpd00013_c0[n]	NONE	<=
 rxn13365	Oxaloacetate transport				2	cpd00032_c0 <=> cpd00032_e0	NONE	=>
 rxn13366	Octadecynoate (n-C18:2) transport in via uniport				2	cpd16888_e0 <=> cpd16888_c0	NONE	<=>
 rxn13367	Alcohol Acetyltransferase (ethanol)			10000000	10000000	cpd00022_c0 + cpd00363_c0 <=> cpd00010_c0 + cpd11966_c0	NONE	<=>
@@ -11314,14 +11202,7 @@ rxn13399	Squalene epoxidase, endoplasmic reticular (NAD)			-98.7167	2.45486	cpd0
 rxn13400	4-hydroxycinnamate formation		R08766	-2.657	0.874306	cpd02305_c0 <=> cpd00001_c0 + cpd00604_c0	NONE	<=>
 rxn13401	Triacylglycerol lipase, yeast-specific			10000000	10000000	cpd00001_c0 + (0.01) cpd11677_c0 <=> (0.27) cpd00214_c0 + (0.05) cpd01080_c0 + (0.02) cpd01107_c0 + (0.06) cpd01741_c0 + (0.1) cpd03847_c0 + (0.01) cpd15192_c0 + (0.17) cpd15237_c0 + (0.24) cpd15269_c0 + (0.09) cpd16888_c0	NONE	<=>
 rxn13402	taurine transport				2	cpd00210_c0 <=> cpd00210_e0	NONE	<=>
-rxn13403	Taurcholate via ABC system (vacuolar)			-6.817	0.717554	cpd00001_c0[v] + cpd00002_c0[v] + cpd03047_c0 <=> cpd00008_c0[v] + cpd00009_c0[v] + cpd00067_c0[v] + cpd03047_c0[v]	NONE	=>
-rxn13406	oxidized thioredoxin peroxisomal transport via diffusion				2	cpd11420_c0 <=> cpd11420_c0[x]	NONE	<=>
-rxn13407	reduced thioredoxin peroxisomal transport via diffusion				2	cpd11421_c0 <=> cpd11421_c0[x]	NONE	<=>
-rxn13409	fatty acid intracellular transport				2	cpd15297_c0 <=> cpd15297_c0[x]	NONE	=>
 rxn13410	L-tyrosine N-formyltransferase			10000000	10000000	cpd00069_c0 + cpd00201_c0 <=> cpd00067_c0 + cpd00087_c0 + cpd16878_c0	NONE	<=>
-rxn13411	L-tyrosine transport in via proton antiport (vacuolar)				2	cpd00067_c0[v] + cpd00069_c0 <=> cpd00067_c0 + cpd00069_c0[v]	NONE	<=>
-rxn13412	L-tyrosine transport out via proton symport, vacuolar				2	cpd00067_c0[v] + cpd00069_c0[v] <=> cpd00067_c0 + cpd00069_c0	NONE	<=>
-rxn13413	UDPgalactose transport (Golgi apparatus)				2	cpd00043_c0 <=> cpd00043_c0[g]	NONE	=>
 rxn13414	UTP diphosphohydrolase			-13.634	1.43511	(2) cpd00001_c0 + cpd00062_c0 <=> (2) cpd00009_c0 + (2) cpd00067_c0 + cpd00091_c0	NONE	=>
 rxn13416	Acyl-CoA:zymosterol acyltransferase, yeast-specific			10000000	10000000	(0.02) cpd00134_c0 + (0.03) cpd00327_c0 + (0.015) cpd01695_c0 + (0.01) cpd03221_c0 + (0.655) cpd15238_c0 + (0.01) cpd15241_c0 + (0.27) cpd15274_c0 <=> cpd00010_c0 + (0.01) cpd16896_c0	NONE	<=>
 rxn13417	zymosterol ester hydrolase, yeast-specific			10000000	10000000	cpd00001_c0 + (0.01) cpd16896_c0 <=> (0.02) cpd00214_c0 + (0.03) cpd01080_c0 + (0.01) cpd03221_c0 + (0.015) cpd03847_c0 + (0.655) cpd15237_c0 + (0.01) cpd15240_c0 + (0.27) cpd15269_c0	NONE	<=>
@@ -11753,7 +11634,7 @@ rxn13943	mannitol-1-phosphate 5-dehydrogenase			2.01	1.70129	cpd00003_c0 + cpd00
 rxn13947	sedoheptulose 7-phosphate isomerase			-0.86	1.49358	cpd00238_c0 <=> cpd04918_c0	Sedoheptulose 7-phosphate <=> phate	<=>
 rxn13948	Limonin-D-ring-lactone lactonohydrolase	 3.1.1.36	R08462			cpd00001_c0 + cpd02214_c0 <=> cpd16523_c0	 Limonin + H2O <=> Limonoate A-ring-lactone	
 rxn13949	beta-D-fructofuranosyl-alpha-D-mannopyranoside-6F-phosphatephosphohydrolase	 3.1.3.79	R08982			cpd00001_c0 + cpd18033_c0 <=> cpd00009_c0 + cpd18050_c0	 beta-D-Fructofuranosyl-alpha-D-mannopyranoside 6F-phosphate + H2O <=> beta-D-Fructofuranosyl-alpha-D-mannopyranoside + Orthophosphate	
-rxn13950	protein-omega-N-(ADP-D-ribosyl)-L-arginine ADP-ribosylhydrolase	 3.2.2.19	R07626			cpd00001_c0 + cpd14733_c0 <=> cdp00251 + cpd11710_c0	 Protein-omega-N-(ADP-D-ribosyl)-L-arginine + H2O <=> ADP-ribose + Protein-L-arginine	
+rxn13950	protein-omega-N-(ADP-D-ribosyl)-L-arginine ADP-ribosylhydrolase	 3.2.2.19	R07626			cpd00001_c0 + cpd14733_c0 <=> cpd00251_c0 + cpd11710_c0	 Protein-omega-N-(ADP-D-ribosyl)-L-arginine + H2O <=> ADP-ribose + Protein-L-arginine	
 rxn13951	Phosphatidylcholine 2-acylhydrolase	 3.1.1.4	R01317			cpd00001_c0 + cpd11624_c0 <=> cpd00188_c0 + cpd02601_c0	 Phosphatidylcholine + H2O <=> 1-Acyl-sn-glycero-3-phosphocholine + (5Z,8Z,11Z,14Z)-Icosatetraenoic acid	
 rxn13952	tetrahydropalmatine:oxygen oxidoreductase	 1.3.3.8	R08795			(2) cpd00007_c0 + cpd00067_c0 + cpd01851_c0 <=> (2) cpd00025_c0 + cpd03153_c0	 Tetrahydropalmatine + 2 Oxygen + H+ <=> Palmatine + 2 H2O2	
 rxn13953	3alpha,7alpha-dihydroxy-5beta-cholestanate,NADPH:oxygenoxidoreductase (26-hydroxylating)	 1.14.13.15	R08760			cpd00005_c0 + cpd00007_c0 + cpd00067_c0 + cpd03228_c0 <=> cpd00001_c0 + cpd00006_c0 + cpd02773_c0	 3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al + NADPH + Oxygen + H+ <=> 3alpha,7alpha-Dihydroxy-5beta-cholestanate + NADP+ + H2O	
@@ -11837,11 +11718,11 @@ rxn14030	dTDP-D-olivose:compound-100-1 O-beta-D-olivosyltransferase	 2.4.1.-	R06
 rxn14031	7-hydroxychlorophyllide-a:NAD+ oxidoreductase	 1.1.1.294	R08914			cpd00003_c0 + cpd16354_c0 <=> cpd00004_c0 + cpd00067_c0 + cpd16355_c0	 7-Hydroxychlorophyllide a + NAD+ <=> Chlorophyllide b + NADH + H+	
 rxn14032	3'-phosphoadenylyl-sulfate:[heparan sulfate]-glucosamineN-sulfotransferase	 2.8.2.8	R02122			cpd00044_c0 + cpd17376_c0 <=> cpd00045_c0 + cpd17377_c0	 3'-Phosphoadenylyl sulfate + [Heparan sulfate]-glucosamine <=> Adenosine 3',5'-bisphosphate + [Heparan sulfate]-N-sulfoglucosamine	
 rxn14033	protein N6-(octanoyl)lysine:sulfur sulfurtransferase	 2.8.1.8	R07767			(2) cpd00017_c0 + (2) cpd00074_c0 + cpd14953_c0 <=> (2) cpd00060_c0 + (2) cpd03091_c0 + cpd14954_c0	 Protein N6-(octanoyl)lysine + 2 Sulfur + 2 S-Adenosyl-L-methionine <=> Protein N6-(lipoyl)lysine + 2 L-Methionine + 2 5'-Deoxyadenosine	
-rxn14034	ADP-D-ribosyl-[dinitrogen reductase] ADP-ribosylhydrolase	 3.2.2.24	R03446			cpd00001_c0 + cpd11833_c0 <=> cdp00251 + cpd12292_c0	 ADP-D-ribosyl-[dinitrogen reductase] + H2O <=> [Dinitrogen reductase] + ADP-ribose	
+rxn14034	ADP-D-ribosyl-[dinitrogen reductase] ADP-ribosylhydrolase	 3.2.2.24	R03446			cpd00001_c0 + cpd11833_c0 <=> cpd00251_c0 + cpd12292_c0	 ADP-D-ribosyl-[dinitrogen reductase] + H2O <=> [Dinitrogen reductase] + ADP-ribose	
 rxn14035	Daunosaminyl-N,N-dimethyltransferase	 2.1.1.-	R08595			cpd09194_c0 <=> cpd08716_c0	 dTDP-beta-L-daunosamine <=> dTDP-L-megosamine	
 rxn14036	arsenite:azurin oxidoreductase	 1.20.98.1	R05751			cpd00001_c0 + cpd04098_c0 + (2) cpd12711_c0 <=> (2) cpd00067_c0 + cpd01048_c0 + (2) cpd12712_c0	 Arsenite + H2O + 2 Oxidized azurin <=> Arsenate ion + 2 Reduced azurin + 2 H+	
 rxn14037	amino acid:2-oxo-acid aminotransferase	 2.6.1.-	R08683			cpd11612_c0 + cpd17454_c0 <=> cpd11625_c0 + cpd17455_c0	 Aliphatic oxo acid + Amino acid <=> Homoamino acid + 2-Oxo acid	
-rxn14038	ADP-ribose ribophosphohydrolase	 3.6.1.13        3.6.1.21	R01054			cdp00251 + cpd00001_c0 <=> cpd00018_c0 + cpd00101_c0	 ADP-ribose + H2O <=> AMP + D-Ribose 5-phosphate	
+rxn14038	ADP-ribose ribophosphohydrolase	 3.6.1.13        3.6.1.21	R01054			cpd00251_c0 + cpd00001_c0 <=> cpd00018_c0 + cpd00101_c0	 ADP-ribose + H2O <=> AMP + D-Ribose 5-phosphate	
 rxn14039	CTP:riboflavin 5'-phosphotransferase	 2.7.1.161	R08574			cpd00052_c0 + cpd00220_c0 <=> cpd00050_c0 + cpd00096_c0	 CTP + Riboflavin <=> CDP + FMN	
 rxn14040	ditrans,tetracis-heptaprenyl-diphosphate:isopentenyl-diphosphateheptaprenylcistransferase	 2.5.1.31	R08751			cpd00113_c0 + cpd17566_c0 <=> cpd00012_c0 + cpd17567_c0	 di-trans,poly-cis-Heptaprenyl diphosphate + Isopentenyl diphosphate <=> di-trans,poly-cis-Octaprenyl diphosphate + Diphosphate	
 rxn14041	Androstan-3alpha,17beta-diol:NADP+ oxidoreductase	 1.1.1.50	R08963			cpd00005_c0 + cpd00067_c0 + cpd02435_c0 <=> cpd00006_c0 + cpd02403_c0	 17beta-Hydroxyandrostan-3-one + NADPH + H+ <=> Androstan-3alpha,17beta-diol + NADP+	
@@ -11881,7 +11762,7 @@ rxn14074	UDP-glucose:4-methylthiobutylthiohydroximateS-beta-D-glucosyltransferas
 rxn14075	UDP-glucose:betanidin 5-O-beta-D-glucosyltransferase	 2.4.1.-	R08822			cpd00026_c0 + cpd05446_c0 <=> cpd00014_c0 + cpd05447_c0	 Betanidin + UDP-glucose <=> Betanin + UDP	
 rxn14076	UDPglucose:(25S)-5beta-spirostan-3beta-ol3-O-beta-glucosyltransferase	 2.4.1.193	R04359			cpd00026_c0 + cpd02460_c0 <=> cpd00014_c0 + cpd05783_c0	 UDP-glucose + (25S)-5beta-Spirostan-3beta-ol <=> UDP + Asparagoside A	
 rxn14077	putrescine:pyruvate aminotransferase	 2.6.1.-	R08714			cpd00020_c0 + cpd00118_c0 <=> cpd00035_c0 + cpd00434_c0	 Putrescine + Pyruvate <=> 4-Aminobutanal + L-Alanine	
-rxn14078	Nomega-(ADP-D-ribosyl)-L-arginine ADP-ribosylhydrolase	 3.2.2.19	R01886			cpd00001_c0 + cpd00884_c0 <=> cdp00251 + cpd00051_c0	 N(omega)-(ADP-D-ribosyl)-L-arginine + H2O <=> L-Arginine + ADP-ribose	
+rxn14078	Nomega-(ADP-D-ribosyl)-L-arginine ADP-ribosylhydrolase	 3.2.2.19	R01886			cpd00001_c0 + cpd00884_c0 <=> cpd00251_c0 + cpd00051_c0	 N(omega)-(ADP-D-ribosyl)-L-arginine + H2O <=> L-Arginine + ADP-ribose	
 rxn14079	UDP-glucose:ferulate D-glucosyltransferase	 2.4.1.120       2.4.1.126	R08839			cpd00026_c0 + cpd01059_c0 <=> cpd00014_c0 + cpd17856_c0	 UDP-glucose + Ferulate <=> 1-O-Feruloyl-beta-D-glucose + UDP	
 rxn14080	trans,trans-Farnesyl-diphosphate diphosphohydrolase	 3.1.7.1	R08697			cpd00001_c0 + cpd00350_c0 <=> cpd00012_c0 + cpd00829_c0	 trans,trans-Farnesyl diphosphate + H2O <=> 2-trans,6-trans-Farnesol + Diphosphate	
 rxn14081	DIBOA-glucoside,2-oxoglutarate:oxygen oxidoreductase	 1.14.11.-	R08972			cpd00007_c0 + cpd00024_c0 + cpd11413_c0 <=> cpd00011_c0 + cpd00036_c0 + cpd18045_c0	 DIBOA-glucoside + 2-Oxoglutarate + Oxygen <=> TRIBOA-glucoside + Succinate + CO2	
@@ -12110,7 +11991,7 @@ rxn14303	3beta-hydroxy-5-cholestenoate,NADPH:oxygen oxidoreductase(7alpha-hydrox
 rxn14304	S-Adenosyl-L-methionine:(S)-norlaudanosoline6-O-methyltransferase	 2.1.1.128	R08793			cpd00017_c0 + cpd01864_c0 <=> cpd00019_c0 + cpd03929_c0	 S-Adenosyl-L-methionine + (S)-Norlaudanosoline <=> S-Adenosyl-L-homocysteine + (S)-3'-Hydroxycoclaurine	
 rxn14305	tetrahomomethionine,NADPH:oxygen oxidoreductase (N-hydroxylating,decarboxylating)	 1.14.13.-	R08673			(2) cpd00005_c0 + (2) cpd00007_c0 + (2) cpd00067_c0 + cpd17415_c0 <=> (3) cpd00001_c0 + (2) cpd00006_c0 + cpd00011_c0 + cpd17438_c0	 Tetrahomomethionine + 2 Oxygen + 2 NADPH + 2 H+ <=> 7-Methylthioheptanaldoxime + 3 H2O + 2 NADP+ + CO2	
 rxn14306	phosphoramidate:hexose 1-phosphotransferase	 2.7.1.62	R03148			cpd00548_c0 + cpd01551_c0 <=> cpd00013_c0 + cpd00862_c0	 Phosphoramidate + D-Hexose <=> NH3 + alpha-D-Hexose 1-phosphate	
-rxn14307	NAD+ glycohydrolase	 3.2.2.5         3.2.2.6	R00102			cpd00001_c0 + cpd00003_c0 <=> cdp00251 + cpd00133_c0	 NAD+ + H2O <=> Nicotinamide + ADP-ribose	
+rxn14307	NAD+ glycohydrolase	 3.2.2.5         3.2.2.6	R00102			cpd00001_c0 + cpd00003_c0 <=> cpd00251_c0 + cpd00133_c0	 NAD+ + H2O <=> Nicotinamide + ADP-ribose	
 rxn14308	acetyl-CoA:6-methylthio-2-oxohexanoate C-acetyltransferase(thioester-hydrolysing, carboxymethyl-forming)	 2.3.3.-	R08627			cpd00001_c0 + cpd00022_c0 + cpd17406_c0 <=> cpd00010_c0 + cpd17408_c0	 2-Oxo-6-methylthiohexanoic acid + Acetyl-CoA + H2O <=> 2-(4'-Methylthio)butylmalic acid + CoA	
 rxn14309	O-phospho-L-serine:tRNA(Cys) ligase (AMP-forming)	 6.1.1.-	R08576			cpd00002_c0 + cpd00738_c0 + cpd11910_c0 <=> cpd00012_c0 + cpd00018_c0 + cpd17286_c0	 O-Phospho-L-serine + tRNA(Cys) + ATP <=> O-Phosphoseryl-tRNA(Cys) + Diphosphate + AMP	
 rxn14310	N-acetylphosphinothricin amidohydrolase		R08874			cpd00001_c0 + cpd17938_c0 <=> cpd00029_c0 + cpd03024_c0	 N-Acetylphosphinothricin + H2O <=> Phosphinothricin + Acetate	
@@ -12163,7 +12044,7 @@ rxn14356	NADH:ubiquinone oxidoreductase	 1.6.5.3	R02166			cpd11609_c0 + cpd11665
 rxn14357	GDP-mannose: D-fructose-6-phosphate 2-alpha-D-mannosyltransferase	 2.4.1.246	R08947			cpd00072_c0 + cpd00083_c0 <=> cpd00031_c0 + cpd18033_c0	 GDP-mannose + D-Fructose 6-phosphate <=> GDP + beta-D-Fructofuranosyl-alpha-D-mannopyranoside 6F-phosphate	
 rxn14358	nitrite:acceptor oxidoreductase	 1.7.99.4	R00798			cpd00001_c0 + cpd00075_c0 + cpd11609_c0 <=> cpd00209_c0 + cpd11610_c0	 Nitrite + Acceptor + H2O <=> Nitrate + Reduced acceptor	
 rxn14359	L-methionine methanethiol-lyase	 4.4.1.11	R08635			cpd00060_c0 <=> cpd00324_c0 + cpd17424_c0	 L-Methionine <=> Methanethiol + 2-Aminobut-2-enoate	
-rxn14360	ADP:D-ribose-5-phosphate adenylyltransferase	 2.7.7.35	R01052			cpd00008_c0 + cpd00101_c0 <=> cdp00251 + cpd00009_c0	 ADP + D-Ribose 5-phosphate <=> Orthophosphate + ADP-ribose	
+rxn14360	ADP:D-ribose-5-phosphate adenylyltransferase	 2.7.7.35	R01052			cpd00008_c0 + cpd00101_c0 <=> cpd00251_c0 + cpd00009_c0	 ADP + D-Ribose 5-phosphate <=> Orthophosphate + ADP-ribose	
 rxn14361	UTP:monosaccharide-1-phosphate uridylyltransferase	 2.7.7.64	R08845			cpd00062_c0 + cpd11794_c0 <=> cpd00012_c0 + cpd12681_c0	 UTP + alpha-D-Aldose 1-phosphate <=> Diphosphate + UDP-sugar	
 rxn14362	3'-phosphoadenylyl-sulfate:4-methylthiobutyl-desulfoglucosinolatesulfotransferase	 2.8.2.-	R08671			cpd00044_c0 + cpd17437_c0 <=> cpd00045_c0 + cpd05321_c0	 4-Methylthiobutyl-desulfoglucosinolate + 3'-Phosphoadenylyl sulfate <=> Glucoerucin + Adenosine 3',5'-bisphosphate	
 rxn14363	menth-8-ene-1,2-diol:NAD+ oxidoreductase	 1.1.1.297	R08919			cpd00003_c0 + cpd18003_c0 <=> cpd00004_c0 + cpd00067_c0 + cpd18002_c0	 p-Menth-8-ene-1,2-diol + NAD+ <=> 1-Hydroxy-p-Menth-8-en-2-one + NADH + H+	
