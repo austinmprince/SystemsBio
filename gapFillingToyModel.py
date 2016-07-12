@@ -18,7 +18,7 @@ f = open('toyModelrxns.txt', 'r')
 rxn_dict = {}
 for line in f:
     rxn_items = line.split('\t')
-    rxn_dict[rxn_items[0]] = rxn_items[1]
+    rxn_dict[rxn_items[0]] = rxn_items[1], rxn_items
 # Reads through the two arrays in which data from the text file was stored and
 # creates reaction objects from these which are added to universal
 for rxnName in rxn_dict.keys():
