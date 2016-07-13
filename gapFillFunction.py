@@ -31,12 +31,14 @@ def gapfillfunc(model, database, runs):
     # Creates a dictionary of the reactions from the tab delimited database, storing their ID and the reaction string
     for line in f:
         rxn_items = line.split('\t')
-        rxn_dict[rxn_items[0]] = rxn_items[6]
+        rxn_dict[rxn_items[0]] = rxn_items[6], rxn_items[1]
     # Adds the reactions from the above dictionary to the Universal model
     for rxnName in rxn_dict.keys():
         rxn = Reaction(rxnName)
         Universal.add_reaction(rxn)
-        rxn.reaction = rxn_dict[rxnName]
+        rxn.reaction = rxn_dict[rxnName][0]
+        rxn.name = rxn_dict[rxnName][1]
+
     # Runs the growMatch algorithm filling gaps from the Universal model
     result = flux_analysis.growMatch(func_model, Universal, iterations=runs)
     resultShortened = sort_and_deduplicate(uniq(result))
@@ -45,13 +47,14 @@ def gapfillfunc(model, database, runs):
     print resultShortened
     for x in range(len(resultShortened)):
         func_model_test = deepcopy(func_model)
-        print func_model_test.optimize().f
+        # print func_model_test.optimize().f
         for i in range(len(resultShortened[x])):
             addID = resultShortened[x][i].id
             rxn = Reaction(addID)
             func_model_test.add_reaction(rxn)
             rxn.reaction = resultShortened[x][i].reaction
             rxn.reaction = re.sub('\+ dummy\S+', '', rxn.reaction)
+            rxn.name = resultShortened[x][i].name
             mets = re.findall('cpd\d{5}_c0|cpd\d{5}_e0', rxn.reaction)
             for met in mets:
                 y = func_model_test.metabolites.get_by_id(met)
@@ -66,6 +69,15 @@ def gapfillfunc(model, database, runs):
 
 
 def printAndWriteOutput(model, database, runs, writeCommand, writeFile='gapFillOuput.txt'):
+    """
+    This function prints and writes the output gained from the gapfilling function in a nice form
+    Args
+        :param model: the gapped model that is to be filled
+        :param database: a database of reactions that will fill the model
+        :param runs: the number of iterations the gapfilling algorithm will run through
+        :param writeCommand: boolean variable of whether the output should be written to a file
+        :param writeFile: the destination file
+    """
     f = open(writeFile, 'w')
     rxns_added = gapfillfunc(model, database, runs)
     # print rxns_added
@@ -136,3 +148,36 @@ def findInsAndOuts(model):
     sorted_out = sorted(out_fluxes.items(), key=operator.itemgetter(1), reverse=True)
     sorted_in = sorted(in_fluxes.items(), key=operator.itemgetter(1), reverse=False)
     return sorted_out, sorted_in
+
+def return_reaction_list(model, database, runs, write_file):
+    f = open(write_file, 'w')
+    rxns_added = gapfillfunc(model, database, runs)
+    for key in rxns_added.keys():
+        for i in range(len(rxns_added[key][0])):
+                rxn_name = re.sub('\+ dummy\S+', '', rxns_added[key][0][i].reaction)
+                f.write(rxns_added[key][0][i].id)
+                f.write('\t')
+                f.write(rxn_name)
+        f.write('\n')
+
+def findTransportRxns(database):
+    f = open(database, 'r')
+    next(f)
+    rxn_dict = {}
+    transRxnList = []
+    for line in f:
+        rxn_items = line.split('\t')
+        rxn_dict[rxn_items[0]] = rxn_items[6]
+    for rxn in rxn_dict:
+        if re.search(r'_c0', rxn_dict[rxn]) and re.search(r'_e0', rxn_dict[rxn]):
+            transRxnList.append(rxn)
+
+    return transRxnList
+
+def removeTransportRxns(database):
+    f = open(database, 'r+')
+    next(f)
+    rxnList = findTransportRxns(database)
+    for i in range(len(rxnList)):
+        print rxnList(i)
+
