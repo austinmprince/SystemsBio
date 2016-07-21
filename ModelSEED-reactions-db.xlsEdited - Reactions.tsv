@@ -12103,3 +12103,4 @@ rxn90012	Monotetradecanoyl-sn-glycerol acylhydrolase	3.1.1.23		10000000	10000000
 rxn90013	Phosphatidylcholine (tetradecanyol) transport via proton symport			10000000	10000000	cpd00067_e0 + cpd90001_e0 <=> cpd00067_c0 + cpd90001_c0	cpd00067_e0 + cpd90001_e0 <=> cpd00067_c0 + cpd90001_c0	<=>
 rxn90014	hydrogen peroxide transport via diffusion			10000000	10000000	cpd00025_e0 <=> cpd00025_c0	cpd00025_e0 <=> cpd00025_c0	<=>
 rxn90015	Homocysteine transport via proton symport			10000000	10000000	cpd00067_e0 + cpd00135_e0 <=> cpd00067_c0 + cpd00135_c0	cpd00067_e0 + cpd00135_e0 <=> cpd00067_c0 + cpd00135_c0	<=>
+ATPS	ATP Synthase:sodium utilizing					cpd00008_c0 + cpd00009_c0 + cpd00067_c0 + 4.0 cpd00971_e0 <=> cpd00001_c0 + cpd00002_c0 + 4.0 cpd00971_c0

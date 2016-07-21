@@ -23,7 +23,6 @@ for run in rxn_list.keys():
     if model_test.reactions.get_by_id('ATPS').x > (467.049840321*0.75):
         atps_list[run] = model_test.reactions.get_by_id('ATPS').x, rxn_list[run], \
                          met.x, model_test.solution.f
-
     else:
         other_mechanism[run] = model_test.reactions.get_by_id('ATPS').x, rxn_list[run], \
                                met.x, model_test.solution.f

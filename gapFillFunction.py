@@ -174,10 +174,3 @@ def findTransportRxns(database):
 
     return transRxnList
 
-# def removeTransportRxns(database, writingFile):
-#     x = open(writingFile, 'w')
-#     f = open
-#     rxnList = findTransportRxns(database)
-#     for i in range(len(rxnList)):
-#         for line in x:
-#             re.sub(rxnList[i], '',line)
