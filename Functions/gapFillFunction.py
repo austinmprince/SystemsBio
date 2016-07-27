@@ -159,18 +159,3 @@ def return_reaction_list(model, database, runs, write_file):
                 f.write('\t')
                 f.write(rxn_name)
         f.write('\n')
-
-def findTransportRxns(database):
-    f = open(database, 'r')
-    next(f)
-    rxn_dict = {}
-    transRxnList = []
-    for line in f:
-        rxn_items = line.split('\t')
-        rxn_dict[rxn_items[0]] = rxn_items[6]
-    for rxn in rxn_dict:
-        if re.search(r'_c0', rxn_dict[rxn]) and re.search(r'_e0', rxn_dict[rxn]):
-            transRxnList.append(rxn)
-
-    return transRxnList
-

@@ -9,7 +9,7 @@ import operator
 # mpld3.enable_notebook()
 
 
-model = create_cobra_model_from_sbml_file('2016_06_23_gapped_meoh_producing.xml')
+model = create_cobra_model_from_sbml_file('Models'+'/2016_06_23_gapped_meoh_producing.xml')
 Universal = Model('Universal Reactions')
 
 # f = open('ModelSEED-reactions-db.xlsEdited - Reactions.tsv', 'r')
@@ -26,7 +26,7 @@ Universal = Model('Universal Reactions')
 #     rxn.reaction = rxn_dict[rxnName][0]
 #     rxn.name = rxn_dict[rxnName][1]
 
-rxn_list = pickle.load(open('rxn_dict.p', 'rb'))
+rxn_list = pickle.load(open('Text Files'+'/rxn_dict.p', 'rb'))
 fva_result_dict = {}
 fva_result_dict_testing = {}
 atps_list = {}
@@ -54,18 +54,18 @@ for run in rxn_list.keys():
         fva_list.append(rxn)
 
     model_fba_test = model_test.copy()
-    model_fba_test.optimize()
+    print run
+    print model_fba_test.optimize().f
     # for rxn in model_fba_test.reactions:
     #     fba = model_fba_test.reactions.get_by_id('rxn01512_LSQBKT_c0_RSQBKT_').x
     #     if model_fba_test.reactions.get_by_id(rxn.id).x > fba:
     #         print rxn.id
     #         print run
-    print run
-    print model_fba_test.metabolites.get_by_id('cpd00002_c0').summary()
+    # print run
+    # print model_fba_test.metabolites.get_by_id('cpd00002_c0').summary()
     fva_result = flux_analysis.flux_variability_analysis(model_test, fva_list)
     fva_result_dict[run] = fva_result
     fva_result_dict_testing[run] = fva_result, fva_list
-
 
 
 # for run in fva_result_dict:
@@ -73,13 +73,13 @@ for run in rxn_list.keys():
 #         atps_list[run] = fva_result_dict[run]
 #     else:
 #         other_mechanism[run] = fva_result_dict[run]
-# atp_min = {}
-# atp_max = {}
+atp_min = {}
+atp_max = {}
 # print fva_result_dict
 #
-# for run in fva_result_dict:
-#     atp_min[run] = round(fva_result_dict[run]['ATPS']['minimum'])
-#     atp_max[run] = round(fva_result_dict[run]['ATPS']['maximum'])
+for run in fva_result_dict:
+    atp_min[run] = round(fva_result_dict[run]['ATPS']['minimum'])
+    atp_max[run] = round(fva_result_dict[run]['ATPS']['maximum'])
 
 
 
@@ -125,25 +125,24 @@ for run in rxn_list.keys():
 # plt.ylabel('Frequency')
 # plt.savefig('SynthaseMin.pdf')
 
-# scatter = plt.scatter(atp_max, atp_min)
 
-# fig, ax = plt.subplots(subplot_kw=dict(axisbg='#EEEEEE'))
-# N = len(atp_min)
-#
-# ax.grid(color='white', linestyle='solid')
-#
-# ax.set_title("ATP Synthase Scatter Plot", size=20)
-# ax.set_xlabel('ATP Synthase FVA Max Flux')
-# ax.set_ylabel('ATP Synthase FVA Min Flux')
-# scatter = ax.scatter(atp_max.values(),
-#                      atp_min.values(),
-#                      c=np.random.random(size=N),
-#                      s=1000 * np.random.random(size=N),
-#                      alpha=0.3,
-#                      cmap=plt.cm.jet)
-# labels = ['point {0}'.format(i) for i in atp_min.keys()]
-# tooltip = mpld3.plugins.PointLabelTooltip(scatter, labels=labels)
-# mpld3.plugins.connect(fig, tooltip)
-#
-# mpld3.show()
+fig, ax = plt.subplots(subplot_kw=dict(axisbg='#EEEEEE'))
+N = len(atp_min)
+
+ax.grid(color='white', linestyle='solid')
+
+ax.set_title("ATP Synthase Scatter Plot", size=20)
+ax.set_xlabel('ATP Synthase FVA Max Flux')
+ax.set_ylabel('ATP Synthase FVA Min Flux')
+scatter = ax.scatter(atp_max.values(),
+                     atp_min.values(),
+                     c=np.random.random(size=N),
+                     s=1000 * np.random.random(size=N),
+                     alpha=0.3,
+                     cmap=plt.cm.jet)
+labels = ['point {0}'.format(i) for i in atp_min.keys()]
+tooltip = mpld3.plugins.PointLabelTooltip(scatter, labels=labels)
+mpld3.plugins.connect(fig, tooltip)
+
+mpld3.show()
 

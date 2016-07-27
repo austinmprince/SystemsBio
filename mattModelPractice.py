@@ -1,11 +1,12 @@
-from cobra.io.sbml import create_cobra_model_from_sbml_file
-from cobra import Model, Reaction, flux_analysis
-from uniqAndSort import uniq, sort_and_deduplicate
+import operator
 import re
 import time
-import operator
-import pandas as pd
-from six import iterkeys
+
+from cobra import Model, Reaction, flux_analysis
+from cobra.io.sbml import create_cobra_model_from_sbml_file
+
+from Functions.uniqAndSort import uniq, sort_and_deduplicate
+
 start_time = time.time()
 # Import Matt's model from SMBL format and creates a model object in cobra
 mattModel = create_cobra_model_from_sbml_file("2016_06_23_gapped_meoh_producing.xml")

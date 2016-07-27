@@ -1,6 +1,7 @@
 import cobra.test
-from uniqAndSort import uniq, sort_and_deduplicate
-from gapFillFunction import gapFillFunc, printAndWriteOutput
+
+from Functions.gapFillFunction import printAndWriteOutput
+
 model = cobra.test.create_test_model("salmonella")
 
 # remove some reactions and add them to the universal reactions
