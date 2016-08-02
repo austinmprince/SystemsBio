@@ -53,9 +53,10 @@ for run in rxn_list.keys():
         rxn.reaction = formula
         fva_list.append(rxn)
 
+
     model_fba_test = model_test.copy()
-    print run
-    print model_fba_test.optimize().f
+    # print run
+    # print model_fba_test.optimize().f
     # for rxn in model_fba_test.reactions:
     #     fba = model_fba_test.reactions.get_by_id('rxn01512_LSQBKT_c0_RSQBKT_').x
     #     if model_fba_test.reactions.get_by_id(rxn.id).x > fba:
@@ -64,10 +65,21 @@ for run in rxn_list.keys():
     # print run
     # print model_fba_test.metabolites.get_by_id('cpd00002_c0').summary()
     fva_result = flux_analysis.flux_variability_analysis(model_test, fva_list)
+    if fva_result['ATPS']['maximum'] == 1000.0:
+        x = 1
+    elif fva_result['ATPS']['maximum'] >= 0:
+        x = 2
+    else:
+        x = 3
     fva_result_dict[run] = fva_result
     fva_result_dict_testing[run] = fva_result, fva_list
+    flux_analysis.optimize_minimal_flux(model_fba_test)
+    list = {}
+    list[run] = x,  (model_fba_test.solution.f/model_fba_test.reactions.rxn10568_LSQBKT_c0_RSQBKT_.x) * 1000
 
+    print '%s : %s : %s' %(run, ((model_fba_test.solution.f/model_fba_test.reactions.rxn10568_LSQBKT_c0_RSQBKT_.x) * 1000), x)
 
+print list
 # for run in fva_result_dict:
 #     if fva_result_dict[run]['ATPS']['minimum'] > 0:
 #         atps_list[run] = fva_result_dict[run]
@@ -125,24 +137,24 @@ for run in fva_result_dict:
 # plt.ylabel('Frequency')
 # plt.savefig('SynthaseMin.pdf')
 
-
-fig, ax = plt.subplots(subplot_kw=dict(axisbg='#EEEEEE'))
-N = len(atp_min)
-
-ax.grid(color='white', linestyle='solid')
-
-ax.set_title("ATP Synthase Scatter Plot", size=20)
-ax.set_xlabel('ATP Synthase FVA Max Flux')
-ax.set_ylabel('ATP Synthase FVA Min Flux')
-scatter = ax.scatter(atp_max.values(),
-                     atp_min.values(),
-                     c=np.random.random(size=N),
-                     s=1000 * np.random.random(size=N),
-                     alpha=0.3,
-                     cmap=plt.cm.jet)
-labels = ['point {0}'.format(i) for i in atp_min.keys()]
-tooltip = mpld3.plugins.PointLabelTooltip(scatter, labels=labels)
-mpld3.plugins.connect(fig, tooltip)
-
-mpld3.show()
+#
+# fig, ax = plt.subplots(subplot_kw=dict(axisbg='#EEEEEE'))
+# N = len(atp_min)
+#
+# ax.grid(color='white', linestyle='solid')
+#
+# ax.set_title("ATP Synthase Scatter Plot", size=20)
+# ax.set_xlabel('ATP Synthase FVA Max Flux')
+# ax.set_ylabel('ATP Synthase FVA Min Flux')
+# scatter = ax.scatter(atp_max.values(),
+#                      atp_min.values(),
+#                      c=np.random.random(size=N),
+#                      s=1000 * np.random.random(size=N),
+#                      alpha=0.3,
+#                      cmap=plt.cm.jet)
+# labels = ['point {0}'.format(i) for i in atp_min.keys()]
+# tooltip = mpld3.plugins.PointLabelTooltip(scatter, labels=labels)
+# mpld3.plugins.connect(fig, tooltip)
+#
+# mpld3.show()
 

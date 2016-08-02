@@ -1,0 +1,488 @@
+0 : -0.59 : 0.49
+0 : 0.0
+GSH[c0] +  --> H2O[c0] + 
+ADP[c0] + Phosphate[c0] + H[c0] +  --> ATP[c0] + GSH[c0] + 
+
+1 : -0.59 : 0.49
+1 : 0.0
+ADP[c0] + Phosphate[c0] + L-Glutamine[c0] + H[c0] --> ATP[c0] + NH3[c0] + L-Glutamate[c0]
+NH3[c0] + L-Glutamate[c0] --> H2O[c0] + L-Glutamine[c0]
+
+2 : -0.49 : 0.49
+2 : 231.219084601
+NADPH[c0] + 2.0 H[c0] + 3-Phosphoglycerate[c0] --> H2O[c0] + NADP[c0] + Glyceraldehyde3-phosphate[c0]
+
+3 : -0.6 : 0.49
+3 : 0.0
+D-glucose-6-phosphate[c0] + IDP[c0] --> D-Glucose[c0] + ITP[c0]
+
+4 : -0.59 : 0.49
+4 : 0.0
+Phosphate[c0] + H[c0] + IDP[c0] --> H2O[c0] + ITP[c0]
+
+6 : -0.59 : 0.49
+6 : 0.0
+Phosphate[c0] + H[c0] +  --> H2O[c0] + 
+ADP[c0] +  --> ATP[c0] + 
+
+7 : -0.59 : 0.49
+7 : 0.0
+CoA[c0] + Succinate[c0] + H[c0] --> H2O[c0] + Succinyl-CoA[c0]
+
+8 : -0.59 : 0.49
+8 : 0.0
+Phosphate[c0] + H[c0] + 4-Amino-5-phosphomethyl-2-methylpyrimidine[c0] --> H2O[c0] + 4-Amino-2-methyl-5-diphosphomethylpyrimidine[c0]
+
+11 : -0.6 : 0.49
+11 : 0.0
+ADP[c0] + IDP[c0] --> AMP[c0] + ITP[c0]
+
+12 : -0.29 : 24.92
+12 : 0.0
+16.0 ADP[c0] + 16.0 Phosphate[c0] + 2.0 NH3[c0] + 6.0 H[c0] + 8.0 Oxidizedferredoxin[c0] + H2[c0] --> 16.0 H2O[c0] + 16.0 ATP[c0] + N2[c0] + 8.0 Reducedferredoxin[c0]
+
+14 : -0.6 : 0.49
+14 : 0.0
+FMN[c0] + CDP[c0] --> CTP[c0] + Riboflavin[c0]
+Phosphate[c0] + H[c0] + Riboflavin[c0] --> H2O[c0] + FMN[c0]
+
+16 : -0.49 : 2.45
+16 : 0.0
+2.0 Oxidizedferredoxin[c0] + H2[c0] --> 2.0 H[c0] + 2.0 Reducedferredoxin[c0]
+
+17 : -0.59 : 0.49
+17 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] + Gly-Tyr[c0] --> ATP[c0] + Glycine[c0] + L-Tyrosine[c0]
+
+18 : -0.59 : 0.49
+18 : 0.0
+Phosphate[c0] + H[c0] + dTMP[c0] --> H2O[c0] + dTDP[c0]
+
+19 : -0.59 : 0.49
+19 : 0.0
+Phosphate[c0] + H[c0] + dTDP[c0] --> H2O[c0] + TTP[c0]
+
+20 : -0.49 : 0.49
+20 : 0.0
+NADPH[c0] + Oxidizedferredoxin[c0] --> NADP[c0] + H[c0] + Reducedferredoxin[c0]
+
+25 : -0.59 : 0.49
+25 : 0.0
+Phosphate[c0] + UDP[c0] + H[c0] --> H2O[c0] + UTP[c0]
+
+26 : -0.59 : 0.49
+26 : 0.0
+Phosphate[c0] + H[c0] + Thiamine_phosphate[c0] --> H2O[c0] + TPP[c0]
+
+27 : -0.05 : 2.05
+27 : 442.107333221
+Formate[c0] + H[c0] + Methanol[c0] --> H2O[c0] + 2.0 Formaldehyde[c0]
+
+29 : -0.6 : 0.49
+29 : 0.0
+ADP[c0] + GDP[c0] --> AMP[c0] + GTP[c0]
+
+31 : -0.49 : 1.59
+31 : 0.0
+NADPH[c0] + 2.0 Oxidizedferredoxin[c0] --> NADP[c0] + H[c0] + 2.0 Reducedferredoxin[c0]
+
+32 : -0.46 : 7.19
+32 : 989.945786765
+NADH[c0] + Pyruvate[c0] + 2.0 H[c0] --> H2O[c0] + NAD[c0] + 2-Oxopropanal[c0]
+Phosphate[c0] + Formate[c0] + 7.0 H[c0] + 4-methylthio_2-oxobutyrate[c0] --> 3.0 H2O[c0] + 2_3-diketo5-methylthio-1-phosphopentane[c0]
+
+33 : -0.59 : 0.49
+33 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] + L-alanylglycine[c0] --> ATP[c0] + Glycine[c0] + L-Alanine[c0]
+
+34 : -0.59 : 0.49
+34 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] + Gly-Leu[c0] --> ATP[c0] + Glycine[c0] + L-Leucine[c0]
+
+35 : -0.59 : 0.49
+35 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] + Gly-Met[c0] --> ATP[c0] + Glycine[c0] + L-Methionine[c0]
+
+37 : -0.6 : 0.49
+37 : 0.0
+CMP[c0] + 1_2-didodecanoyl-sn-glycerol_3-phosphate[c0] --> H2O[c0] + CDP-1_2-didodecanoylglycerol[c0]
+
+38 : -0.59 : 0.49
+38 : 0.0
+ADP[c0] + AMP[c0] --> ATP[c0] + Adenosine[c0]
+Phosphate[c0] + H[c0] + Adenosine[c0] --> H2O[c0] + AMP[c0]
+
+39 : -0.59 : 0.49
+39 : 0.0
+Phosphate[c0] + H[c0] +  --> H2O[c0] + ribose-5-phosphate[c0]
+ADP[c0] + ribose-5-phosphate[c0] --> ATP[c0] + 
+
+40 : -0.59 : 0.49
+40 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] + Ala-Gln[c0] --> ATP[c0] + L-Alanine[c0] + L-Glutamine[c0]
+
+41 : -0.59 : 0.49
+41 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] + Gly-Gln[c0] --> ATP[c0] + Glycine[c0] + L-Glutamine[c0]
+
+42 : -0.6 : 0.49
+42 : 0.0
+PPi[c0] + NH3[c0] + dUMP[c0] --> 2.0 H2O[c0] + H[c0] + dCTP[c0]
+
+49 : -0.38 : 0.53
+49 : 485.787111317
+H2O[c0] + 5_10-Methylenetetrahydromethanopterin[c0] --> Formaldehyde[c0] + H4MPT[c0]
+
+51 : -0.6 : 0.49
+51 : 0.0
+H[c0] + Toxopyrimidine[c0] + 4-Methyl-5-2-hydroxyethyl-thiazole[c0] --> H2O[c0] + Thiamin[c0]
+
+52 : -0.6 : 0.49
+52 : 0.0
+ADP[c0] + D-glucose-6-phosphate[c0] --> ATP[c0] + D-Glucose[c0]
+
+53 : -0.49 : 2.31
+53 : 0.0
+CoA[c0] + Pyruvate[c0] + 2.0 Oxidizedferredoxin[c0] --> CO2[c0] + Acetyl-CoA[c0] + 2.0 H[c0] + 2.0 Reducedferredoxin[c0]
+
+54 : -0.6 : 0.49
+54 : 0.0
+2.0 Phosphate[c0] + AMP[c0] + 2.0 H[c0] --> 2.0 H2O[c0] + ATP[c0]
+
+55 : -0.59 : 0.49
+55 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] --> H2O[c0] + ATP[c0]
+
+56 : -0.6 : 0.49
+56 : 0.0
+D-glucose-6-phosphate[c0] + dADP[c0] --> D-Glucose[c0] + dATP[c0]
+
+58 : -0.59 : 0.49
+58 : 0.0
+NAD[c0] + Phosphate[c0] + H[c0] --> H2O[c0] + NADP[c0]
+
+65 : -0.49 : 2.35
+65 : 0.0
+CoA[c0] + 2-Oxoglutarate[c0] + 2.0 Oxidizedferredoxin[c0] --> CO2[c0] + 2.0 H[c0] + Succinyl-CoA[c0] + 2.0 Reducedferredoxin[c0]
+
+66 : -0.6 : 0.49
+66 : 0.0
+2.0 dADP[c0] --> dATP[c0] + 
+PRPP[c0] +  --> ribose-5-phosphate[c0] + dATP[c0]
+
+67 : -0.6 : 0.49
+67 : 0.0
+CMP[c0] + 1_2-ditetradec-7-enoyl-sn-glycerol_3-phosphate[c0] --> H2O[c0] + CDP-1_2-ditetradec-7-enoylglycerol[c0]
+
+68 : -0.6 : 0.49
+68 : 0.0
+CMP[c0] + 1_2-dihexadecanoyl-sn-glycerol_3-phosphate[c0] --> H2O[c0] + CDP-1_2-dihexadecanoylglycerol[c0]
+
+69 : -0.59 : 0.49
+69 : 0.0
+Phosphate[c0] + 2.0 H[c0] + 3-Phosphoglycerate[c0] --> H2O[c0] + 1_3-Bisphospho-D-glycerate[c0]
+
+70 : -0.6 : 0.49
+70 : 0.0
+CMP[c0] + 1_2-dioctadecanoyl-sn-glycerol_3-phosphate[c0] --> H2O[c0] + CDP-1_2-dioctadecanoylglycerol[c0]
+
+72 : -0.49 : 0.49
+72 : 0.0
+NADPH[c0] + CO2[c0] + Succinyl-CoA[c0] --> NADP[c0] + CoA[c0] + 2-Oxoglutarate[c0]
+
+74 : -0.6 : 0.49
+74 : 0.0
+Pyruvate[c0] + Glycerone-phosphate[c0] --> Phosphoenolpyruvate[c0] + 
+Glyceraldehyde3-phosphate[c0] +  --> D-fructose-6-phosphate[c0]
+
+76 : -0.49 : 0.51
+76 : 0.0
+NADPH[c0] + CO2[c0] + L-Tyrosine[c0] --> NADP[c0] + Pretyrosine[c0]
+NADH[c0] + Oxidizedferredoxin[c0] --> NAD[c0] + H[c0] + Reducedferredoxin[c0]
+
+78 : -0.59 : 0.49
+78 : 0.0
+Phosphate[c0] + H[c0] + dCDP[c0] --> H2O[c0] + dCTP[c0]
+
+79 : -0.59 : 0.49
+79 : 0.0
+Phosphate[c0] + H[c0] + dADP[c0] --> H2O[c0] + dATP[c0]
+
+80 : -0.59 : 0.49
+80 : 0.0
+ADP[c0] + D-fructose-1_6-bisphosphate[c0] --> ATP[c0] + D-fructose-1-phosphate[c0]
+
+81 : -0.59 : 0.49
+81 : 0.0
+Phosphate[c0] + H[c0] + dUDP[c0] --> H2O[c0] + dUTP[c0]
+
+82 : -0.6 : 0.49
+82 : 0.0
+D-glucose-6-phosphate[c0] + Glycerol[c0] --> D-Glucose[c0] + Glycerol-3-phosphate[c0]
+ADP[c0] + Glycerol-3-phosphate[c0] --> ATP[c0] + Glycerol[c0]
+
+84 : -0.49 : 1.15
+84 : 0.0
+CO2[c0] + H[c0] + S-2-(indol-3-yl)acetyl-CoA[c0] + 2.0  --> CoA[c0] + Indole-3-pyruvate[c0] + 2.0 
+ --> 
+
+85 : -0.6 : 0.49
+85 : 0.0
+Phosphate[c0] + H[c0] +  --> H2O[c0] + UMP[c0]
+GDP[c0] + UMP[c0] --> GTP[c0] + 
+
+86 : -0.6 : 0.49
+86 : 0.0
+D-glucose-6-phosphate[c0] +  --> D-Glucose[c0] + H[c0] + 
+Pyruvate[c0] + H[c0] +  --> Phosphoenolpyruvate[c0] + 
+
+87 : 4.92 : 0.49
+87 : 0.0
+H4MPT[c0] + Methyl_CoM[c0] --> CoM[c0] + 5-Methyl-H4MPT[c0]
+
+88 : -0.59 : 0.49
+88 : 0.0
+Phosphate[c0] + H[c0] + Guanosine[c0] --> H2O[c0] + GMP[c0]
+
+90 : -0.59 : 0.49
+90 : 0.0
+ADP[c0] + D-fructose-1_6-bisphosphate[c0] --> ATP[c0] + D-fructose-6-phosphate[c0]
+
+91 : -0.59 : 0.49
+91 : 0.0
+ADP[c0] + UDP[c0] --> ATP[c0] + UMP[c0]
+Phosphate[c0] + H[c0] + UMP[c0] --> H2O[c0] + UDP[c0]
+
+92 : -0.6 : 0.49
+92 : 0.0
+ADP[c0] + UDP[c0] --> AMP[c0] + UTP[c0]
+
+95 : -0.59 : 0.49
+95 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] + Gly-Phe[c0] --> ATP[c0] + Glycine[c0] + L-Phenylalanine[c0]
+
+96 : -0.6 : 0.49
+96 : 0.0
+2.0 ADP[c0] --> ATP[c0] + AMP[c0]
+
+97 : -0.59 : 0.49
+97 : 0.0
+Phosphate[c0] + CMP[c0] + H[c0] --> H2O[c0] + CDP[c0]
+
+98 : -0.6 : 0.49
+98 : 0.0
+PPi[c0] + CMP[c0] --> H2O[c0] + CTP[c0]
+
+99 : -0.6 : 0.49
+99 : 0.0
+Phosphate[c0] + H[c0] + Cytidine[c0] --> H2O[c0] + CMP[c0]
+
+100 : -0.59 : 0.49
+100 : 0.0
+ADP[c0] + Phosphate[c0] + PPi[c0] + Nicotinate_ribonucleotide[c0] --> H2O[c0] + ATP[c0] + PRPP[c0] + Niacin[c0]
+
+101 : -0.59 : 0.49
+101 : 0.0
+Phosphate[c0] + H[c0] + dGDP[c0] --> H2O[c0] + dGTP[c0]
+
+102 : -0.59 : 0.49
+102 : 0.0
+Phosphate[c0] + Pyruvate[c0] + H[c0] --> H2O[c0] + Phosphoenolpyruvate[c0]
+
+103 : -0.49 : 0.49
+103 : 0.0
+NADPH[c0] + CO2[c0] + Acetyl-CoA[c0] --> NADP[c0] + CoA[c0] + Pyruvate[c0]
+
+104 : -0.59 : 0.49
+104 : 0.0
+Phosphate[c0] + H[c0] + CDP[c0] --> H2O[c0] + CTP[c0]
+
+105 : -0.59 : 0.49
+105 : 0.0
+NH3[c0] + UTP[c0] --> H2O[c0] + CTP[c0] + H[c0]
+
+106 : -0.59 : 0.49
+106 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] + Gly-Cys[c0] --> ATP[c0] + Glycine[c0] + L-Cysteine[c0]
+
+107 : -0.59 : 0.49
+107 : 0.0
+ADP[c0] + Phosphate[c0] + H[c0] + Ala-His[c0] --> ATP[c0] + L-Alanine[c0] + L-Histidine[c0]
+
+108 : -0.6 : 0.49
+108 : 0.0
+UDP[c0] + D-fructose-1_6-bisphosphate[c0] --> UTP[c0] + D-fructose-6-phosphate[c0]
+
+110 : -0.59 : 0.49
+110 : 0.0
+Phosphate[c0] + H[c0] + dCMP[c0] --> H2O[c0] + dCDP[c0]
+
+111 : -0.6 : 0.49
+111 : 0.0
+PPi[c0] + dCMP[c0] --> H2O[c0] + dCTP[c0]
+
+112 : -0.6 : 0.49
+112 : 0.0
+PPi[c0] + dTMP[c0] --> H2O[c0] + TTP[c0]
+
+113 : -0.59 : 0.49
+113 : 0.0
+Phosphate[c0] + H[c0] + Inosine[c0] --> H2O[c0] + IMP[c0]
+
+115 : -0.6 : 0.49
+115 : 0.0
+CMP[c0] + 1_2-ditetradecanoyl-sn-glycerol_3-phosphate[c0] --> H2O[c0] + CDP-1_2-ditetradecanoylglycerol[c0]
+
+116 : -0.6 : 0.49
+116 : 0.0
+CMP[c0] + 1_2-dihexadec-9-enoyl-sn-glycerol_3-phosphate[c0] --> H2O[c0] + CDP-1_2-dihexadec-9-enoylglycerol[c0]
+
+117 : -0.6 : 0.49
+117 : 0.0
+CMP[c0] + 1_2-dioctadec-11-enoyl-sn-glycerol_3-phosphate[c0] --> H2O[c0] + CDP-1_2-dioctadec-11-enoylglycerol[c0]
+
+118 : -0.59 : 0.49
+118 : 0.0
+Phosphate[c0] + GDP[c0] + H[c0] --> H2O[c0] + GTP[c0]
+
+120 : -0.6 : 0.49
+120 : 0.0
+ADP[c0] + beta-D-Glucose_6-phosphate[c0] --> ATP[c0] + D-Glucose[c0]
+
+122 : -0.26 : 0.34
+122 : 0.0
+3-Phosphoglycerate[c0] --> 1_3-Bisphospho-D-glycerate[c0]
+Methanol[c0] --> H2O[c0]
+
+123 : -0.6 : 0.49
+123 : 0.0
+PPi[c0] + CMP[c0] + R-4'-Phosphopantothenoyl-L-cysteine[c0] --> CTP[c0] + L-Cysteine[c0] + 4-phosphopantothenate[c0]
+
+124 : -0.6 : 0.49
+124 : 0.0
+CDP[c0] + D-fructose-1_6-bisphosphate[c0] --> CTP[c0] + D-fructose-6-phosphate[c0]
+
+125 : -0.6 : 0.49
+125 : 0.0
+IDP[c0] + D-fructose-1_6-bisphosphate[c0] --> ITP[c0] + D-fructose-6-phosphate[c0]
+
+128 : -0.49 : 0.99
+128 : 0.0
+3.0 H2O[c0] + H2S[c0] + 6.0 Oxidizedferredoxin[c0] --> 6.0 H[c0] + Sulfite[c0] + 6.0 Reducedferredoxin[c0]
+7.0 H[c0] + Sulfite[c0] + 3.0 Reducedferredoxin[c0] --> 3.0 H2O[c0] + H2S[c0] + 3.0 Oxidizedferredoxin[c0]
+
+130 : -0.6 : 0.49
+130 : 0.0
+ATP[c0] + CO2[c0] + NH3[c0] --> ADP[c0] + H[c0] + Carbamoylphosphate[c0]
+2.0 ADP[c0] + Phosphate[c0] + L-Glutamate[c0] + 2.0 H[c0] + Carbamoylphosphate[c0] --> 2.0 H2O[c0] + 2.0 ATP[c0] + CO2[c0] + L-Glutamine[c0]
+
+131 : -0.6 : 0.49
+131 : 0.0
+H2O[c0] + UDP[c0] --> Phosphate[c0] + H[c0] + UMP[c0]
+2.0 Phosphate[c0] + 2.0 H[c0] + UMP[c0] --> 2.0 H2O[c0] + UTP[c0]
+
+132 : -0.52 : 5.95
+132 : 957.306015675
+H2O[c0] --> 
+Phosphate[c0] + H[c0] +  --> H2O[c0] + D-fructose-6-phosphate[c0]
+
+133 : -0.49 : 1.19
+133 : 0.589293490001
+ + 2.0 H[c0] --> H2O2[c0]
+H2O[c0] + CO2[c0] + Acetate[c0] -->  + L-Lactate[c0]
+
+134 : -0.49 : 0.51
+134 : 0.0
+NAD[c0] + Succinate[c0] --> NADH[c0] + H[c0] + Fumarate[c0]
+NADH[c0] + NH3[c0] + 2-Oxoglutarate[c0] + H[c0] --> H2O[c0] + NAD[c0] + L-Glutamate[c0]
+
+135 : -0.6 : 0.49
+135 : 0.0
+Pyruvate[c0] +  --> Phosphoenolpyruvate[c0] + 
+Phosphate[c0] + H[c0] +  --> H2O[c0] + 
+
+136 : -0.49 : 0.49
+136 : 0.0
+Acetyl-CoA[c0] + Formate[c0] --> CoA[c0] + Pyruvate[c0]
+
+137 : -0.38 : 0.53
+137 : 485.787111317
+2-Dehydropantoate[c0] --> Formaldehyde[c0] + 3-Methyl-2-oxobutanoate[c0]
+
+139 : -0.6 : 0.49
+139 : 0.0
+2.0 H2O[c0] + GTP[c0] --> 2.0 Phosphate[c0] + 2.0 H[c0] + GMP[c0]
+3.0 Phosphate[c0] + 3.0 H[c0] + Guanosine[c0] --> 3.0 H2O[c0] + GTP[c0]
+
+140 : -0.16 : 1.67
+140 : 466.011588955
+ + Methanol[c0] --> H2O2[c0] + Formaldehyde[c0]
+NH3[c0] + H2O2[c0] + p-hydroxyphenylpyruvate[c0] --> H2O[c0] +  + L-Tyrosine[c0]
+
+141 : -0.05 : 2.06
+141 : 441.723294825
+NAD[c0] + Methanol[c0] --> NADH[c0] + Formaldehyde[c0] + H[c0]
+NADH[c0] + Formate[c0] + 2.0 H[c0] --> H2O[c0] + NAD[c0] + Formaldehyde[c0]
+
+143 : -0.59 : 0.49
+143 : 0.0
+Phosphate[c0] + H[c0] + N-Acetyl-D-mannosamine[c0] --> H2O[c0] + 
+ADP[c0] +  --> ATP[c0] + N-Acetyl-D-mannosamine[c0]
+
+145 : -0.49 : 1.59
+145 : 0.0
+2.0 L-Glutamate[c0] + 2.0 Oxidizedferredoxin[c0] --> 2-Oxoglutarate[c0] + L-Glutamine[c0] + 2.0 H[c0] + 2.0 Reducedferredoxin[c0]
+
+146 : -0.6 : 0.49
+146 : 0.0
+ATP[c0] +  + H[c0] --> PPi[c0] + 
+Phosphate[c0] + PPi[c0] + GDP[c0] +  --> H2O[c0] + ATP[c0] + GTP[c0] + 
+
+149 : -0.52 : 5.95
+149 : 957.306015675
+H2O[c0] --> 
+5.0 H2O[c0] +  --> 6.0 D-Glucose[c0]
+
+150 : -0.49 : 1.59
+150 : 0.0
+3.0 H2O[c0] + Selenide[c0] + 6.0 Oxidizedferredoxin[c0] --> 6.0 H[c0] + Selenite[c0] + 6.0 Reducedferredoxin[c0]
+
+157 : -0.52 : 6.16
+157 : 961.21548981
+H2O[c0] --> 2.0 D-Glucose[c0]
+
+159 : -0.52 : 5.95
+159 : 957.306015675
+H2O[c0] --> D-Glucose[c0]
+
+161 : -0.52 : 2.39
+161 : 0.0
+16.0 ADP[c0] + 16.0 Phosphate[c0] + 2.0 NH3[c0] + H2[c0] --> 16.0 H2O[c0] + 16.0 ATP[c0] + 8.0 H[c0] + N2[c0] + 8.0 
+16.0 ADP[c0] + 16.0 Phosphate[c0] + 8.0 Oxidizedferredoxin[c0] + 8.0  --> 16.0 H2O[c0] + 16.0 ATP[c0] + 8.0 Reducedferredoxin[c0]
+
+162 : -0.49 : 0.49
+162 : 0.0
+2.0 L-Glutamate[c0] + Oxidizedferredoxin[c0] --> 2-Oxoglutarate[c0] + L-Glutamine[c0] + 2.0 H[c0] + Reducedferredoxin[c0]
+
+164 : -0.49 : 0.49
+164 : 0.0
+Formate[c0] + Oxidizedferredoxin[c0] --> CO2[c0] + H[c0] + Reducedferredoxin[c0]
+
+167 : -0.78 : 6.18
+167 : 796.999851627
+H2O[c0] --> D-Glucose[c0] + D-glucose-6-phosphate[c0]
+
+168 : -0.51 : 3.6
+168 : 797.983110667
+H2O[c0] --> 2.0 
+ATP[c0] +  --> ADP[c0] + D-glucose-6-phosphate[c0]
+
+169 : -0.78 : 6.18
+169 : 796.999851627
+H2O[c0] --> D-glucose-6-phosphate[c0] + 
+Phosphate[c0] + H[c0] +  --> H2O[c0] + D-fructose-1-phosphate[c0]
+
+173 : -0.59 : 0.49
+173 : 0.0
+1-Aminopropan-2-ol[c0] + Adenosylcobyric_acid[c0] --> H2O[c0] + Adenosyl_cobinamide[c0]
+
