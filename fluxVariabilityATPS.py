@@ -138,23 +138,23 @@ for run in fva_result_dict:
 # plt.savefig('SynthaseMin.pdf')
 
 #
-# fig, ax = plt.subplots(subplot_kw=dict(axisbg='#EEEEEE'))
-# N = len(atp_min)
-#
-# ax.grid(color='white', linestyle='solid')
-#
-# ax.set_title("ATP Synthase Scatter Plot", size=20)
-# ax.set_xlabel('ATP Synthase FVA Max Flux')
-# ax.set_ylabel('ATP Synthase FVA Min Flux')
-# scatter = ax.scatter(atp_max.values(),
-#                      atp_min.values(),
-#                      c=np.random.random(size=N),
-#                      s=1000 * np.random.random(size=N),
-#                      alpha=0.3,
-#                      cmap=plt.cm.jet)
-# labels = ['point {0}'.format(i) for i in atp_min.keys()]
-# tooltip = mpld3.plugins.PointLabelTooltip(scatter, labels=labels)
-# mpld3.plugins.connect(fig, tooltip)
-#
-# mpld3.show()
+fig, ax = plt.subplots(subplot_kw=dict(axisbg='#EEEEEE'))
+N = len(atp_min)
+
+ax.grid(color='white', linestyle='solid')
+
+ax.set_title("ATP Synthase Scatter Plot", size=20)
+ax.set_xlabel('ATP Synthase FVA Max Flux')
+ax.set_ylabel('ATP Synthase FVA Min Flux')
+scatter = ax.scatter(atp_max.values(),
+                     atp_min.values(),
+                     c=np.random.random(size=N),
+                     s=1000 * np.random.random(size=N),
+                     alpha=0.3,
+                     cmap=plt.cm.jet)
+labels = ['point {0}'.format(i) for i in atp_min.keys()]
+tooltip = mpld3.plugins.PointLabelTooltip(scatter, labels=labels)
+mpld3.plugins.connect(fig, tooltip)
+
+mpld3.show()
 
