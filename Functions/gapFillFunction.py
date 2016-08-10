@@ -130,9 +130,18 @@ def printAndWriteOutput(model, database, runs, writeCommand, writeFile='gapFillO
 
 
 def findInsAndOuts(model):
+    '''
+    :param model: Take a model that is not solved but can be solved as is
+    :return: A dictionary that contains the major ins and outs of the system and their fluxes
+    Takes the fluxes that are above a certain threshold and that are boundary fluxes and returns
+    the name of these functions as well as their fluxes in sorted dictionary form
+    '''
+    # Creates test model that the function can work on and solves this test model
     testModel = model.copy()
     testModel.optimize()
     threshold = 1E-8
+    # Taken from the summary function this looks through the reactions in testModel and
+    # finds the ones that are both above the given threshold and at the boundary
     out_rxns = testModel.reactions.query(
         lambda rxn: rxn.x > threshold, None
     ).query(lambda x: x, 'boundary')
@@ -141,10 +150,12 @@ def findInsAndOuts(model):
     ).query(lambda x: x, 'boundary')
     in_fluxes = {}
     out_fluxes = {}
+    # Gets the fluxes of these reactions that meet the previous criteria
     for rxn in in_rxns:
         in_fluxes[rxn.name] = rxn.x
     for rxn in out_rxns:
         out_fluxes[rxn.name] = rxn.x
+    # Sorts the previous dictionaries based on the values of the fluxes through them
     sorted_out = sorted(out_fluxes.items(), key=operator.itemgetter(1), reverse=True)
     sorted_in = sorted(in_fluxes.items(), key=operator.itemgetter(1), reverse=False)
     return sorted_out, sorted_in
